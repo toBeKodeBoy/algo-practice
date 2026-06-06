@@ -11,8 +11,7 @@ algo-practice/
 ├── .gitignore
 ├── pom.xml                          # Maven 项目
 ├── README.md                        # 项目总览 & 进度看板
-├── ROUTINE.md                       # 地铁刷题每日节奏
-├── pitfalls.md                      # 易错点库
+├── docs/                            # 每日节奏 & 易错点文档
 ├── scripts/
 │   ├── stats.mjs                    # 统计脚本（打卡/热力图/进度）
 │   └── review.mjs                   # 艾宾浩斯复习表
@@ -61,7 +60,7 @@ algo-practice/
 | `node scripts/review.mjs today` | 今日艾宾浩斯到期复习 |
 | `node scripts/review.mjs sync` | 从题解同步复习计划 |
 
-每日节奏见 [ROUTINE.md](ROUTINE.md)，易错点见 [pitfalls.md](pitfalls.md)。
+每日节奏见 [ROUTINE.md](docs/ROUTINE.md)，易错点见 [pitfalls.md](docs/pitfalls.md)。
 
 <!-- PROGRESS_START -->
 
@@ -105,7 +104,7 @@ algo-practice/
 
 | 日期 | 题目 | 难度 | 标签 |
 |------|------|:----:|------|
-| 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) | Medium | - |
+| 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) | Medium | 数组, 哈希表 |
 | 2026-06-04 | [LC_0003_LongestSubstringWithoutRepeating](src/main/java/algo/y2026/M06/d04/LC_0003_LongestSubstringWithoutRepeating.java) | Medium | 哈希表, 滑动窗口 |
 | 2026-06-04 | [LC_0026_RemoveDuplicates](src/main/java/algo/y2026/M06/d04/LC_0026_RemoveDuplicates.java) | Easy | 数组, 快慢指针 |
 | 2026-06-04 | [LC_0076_MinWindowSubstring](src/main/java/algo/y2026/M06/d04/LC_0076_MinWindowSubstring.java) | Medium | 滑动窗口 |
