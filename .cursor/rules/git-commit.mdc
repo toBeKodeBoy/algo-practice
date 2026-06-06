@@ -19,8 +19,27 @@ alwaysApply: true
 
 ## 分支
 
-默认在 `master` 提交。仅当改动与当日题解无关、或需隔离实验时：
+默认在 `master` 提交。
+
+### 按日期隔离（日常 algo 工作流）
+
+`feature/pmb-YYMMDD-algo`
+
+- 前缀：`feature/`
+- 标识：`pmb`（固定）
+- 日期：`YYMMDD`（2 位年 + 月 + 日，如 `260606` 表示 2026-06-06）
+- 后缀：`algo`（固定）
+
+示例：`feature/pmb-260606-algo`
+
+适用：当日刷题、统计、复习等 algo-practice 日常改动，需与 `master` 隔离时使用。
+
+### 按题号隔离（LeetCode 相关实验）
 
 `feat/lc-xxxx-简短英文描述`（全小写、连字符）
+
+示例：`feat/lc-0049-group-anagrams`
+
+适用：改动与当日题解无关、或需针对单题隔离实验时。
 
 生成 commit message 或建议 git 命令时必须遵循以上格式。
