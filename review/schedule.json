@@ -1,0 +1,571 @@
+{
+  "LC_0001": {
+    "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+    "firstDone": "2026-05-18",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-05-19",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-05-20",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-05-22",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-05-25",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-06-17",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": [
+      "边界错"
+    ]
+  },
+  "LC_0128": {
+    "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+    "firstDone": "2026-05-27",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-05-28",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-05-29",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-05-31",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": [
+      "变量更新"
+    ]
+  },
+  "LC_0283": {
+    "title": "将数组中的 0 移动到末尾，保持非零元素相对顺序，原地操作",
+    "firstDone": "2026-05-28",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-05-29",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-05-30",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-12",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0011": {
+    "title": "给定 n 条垂线高度，找出两条线与 x 轴围成容器可容纳的最大水量",
+    "firstDone": "2026-05-30",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-05-31",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-06",
+        "done": "2026-06-06",
+        "slot": "晚地铁"
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-06-29",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0015": {
+    "title": "找出数组中所有和为 0 且不重复的三元组",
+    "firstDone": "2026-05-31",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-06-30",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0053": {
+    "title": "找出具有最大和的连续子数组，返回最大和",
+    "firstDone": "2026-06-01",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-16",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-01",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": [
+      "变量更新"
+    ]
+  },
+  "LC_0056": {
+    "title": "合并所有重叠的区间",
+    "firstDone": "2026-06-02",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-06",
+        "done": "2026-06-06",
+        "slot": "晚地铁"
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-09",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0189": {
+    "title": "将数组向右轮转 k 个位置，原地操作",
+    "firstDone": "2026-06-02",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-06",
+        "done": "2026-06-06",
+        "slot": "晚地铁"
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-09",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0041": {
+    "title": "找出未出现的最小正整数",
+    "firstDone": "2026-06-03",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-18",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0238": {
+    "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+    "firstDone": "2026-06-03",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-18",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0003": {
+    "title": "给定字符串 s，找出不含重复字符的最长子串长度",
+    "firstDone": "2026-06-04",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-06",
+        "done": "2026-06-06",
+        "slot": "晚地铁"
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-19",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": [
+      "String遍历"
+    ]
+  },
+  "LC_0026": {
+    "title": "给你一个非严格递增的数组nums,请你原地删除重复出现的元素，使得每个元素只出现一次，返回删除后数组新长度，",
+    "firstDone": "2026-06-04",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-06",
+        "done": "2026-06-06",
+        "slot": "晚地铁"
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-19",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0076": {
+    "title": "给你一个字符串 s 和一个字符串 t ，返回 s 中涵盖 t 所有字符的最小子串。",
+    "firstDone": "2026-06-04",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-06",
+        "done": "2026-06-06",
+        "slot": "晚地铁"
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-19",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": [
+      "滑动窗口"
+    ]
+  }
+}

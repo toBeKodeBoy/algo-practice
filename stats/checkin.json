@@ -1,0 +1,677 @@
+{
+  "2026-06-06": {
+    "date": "2026-06-06",
+    "checkedIn": true,
+    "problems": [],
+    "reviews": [
+      {
+        "lcId": "LC_0011",
+        "title": "给定 n 条垂线高度，找出两条线与 x 轴围成容器可容纳的最大水量",
+        "round": "R4",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0056",
+        "title": "合并所有重叠的区间",
+        "round": "R3",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0189",
+        "title": "将数组向右轮转 k 个位置，原地操作",
+        "round": "R3",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0003",
+        "title": "给定字符串 s，找出不含重复字符的最长子串长度",
+        "round": "R2",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0026",
+        "title": "给你一个非严格递增的数组nums,请你原地删除重复出现的元素，使得每个元素只出现一次，返回删除后数组新长度，",
+        "round": "R2",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0076",
+        "title": "给你一个字符串 s 和一个字符串 t ，返回 s 中涵盖 t 所有字符的最小子串。",
+        "round": "R2",
+        "slot": "晚地铁"
+      }
+    ],
+    "slots": {
+      "早地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 6,
+        "items": [
+          {
+            "lcId": "LC_0011",
+            "title": "给定 n 条垂线高度，找出两条线与 x 轴围成容器可容纳的最大水量",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
+          },
+          {
+            "lcId": "LC_0056",
+            "title": "合并所有重叠的区间",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          },
+          {
+            "lcId": "LC_0189",
+            "title": "将数组向右轮转 k 个位置，原地操作",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          },
+          {
+            "lcId": "LC_0003",
+            "title": "给定字符串 s，找出不含重复字符的最长子串长度",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          },
+          {
+            "lcId": "LC_0026",
+            "title": "给你一个非严格递增的数组nums,请你原地删除重复出现的元素，使得每个元素只出现一次，返回删除后数组新长度，",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          },
+          {
+            "lcId": "LC_0076",
+            "title": "给你一个字符串 s 和一个字符串 t ，返回 s 中涵盖 t 所有字符的最小子串。",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 0,
+    "reviewCount": 6,
+    "total": 6,
+    "summary": {
+      "早地铁": {
+        "新题": 0,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 6
+      }
+    }
+  },
+  "2026-06-04": {
+    "date": "2026-06-04",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0003",
+        "title": "给定字符串 s，找出不含重复字符的最长子串长度",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0003_LongestSubstringWithoutRepeating.java"
+      },
+      {
+        "lcId": "LC_0026",
+        "title": "删除有序数组中的重复项，返回去重后长度",
+        "difficulty": "Easy",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0026_RemoveDuplicates.java"
+      },
+      {
+        "lcId": "LC_0076",
+        "title": "给你一个字符串 s 和一个字符串 t ，返回 s 中涵盖 t 所有字符的最小子串。",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0076_MinWindowSubstring.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 2,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0003",
+            "title": "给定字符串 s，找出不含重复字符的最长子串长度",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0003_LongestSubstringWithoutRepeating.java"
+          },
+          {
+            "lcId": "LC_0076",
+            "title": "给你一个字符串 s 和一个字符串 t ，返回 s 中涵盖 t 所有字符的最小子串。",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0076_MinWindowSubstring.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0026",
+            "title": "删除有序数组中的重复项，返回去重后长度",
+            "difficulty": "Easy",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0026_RemoveDuplicates.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 3,
+    "reviewCount": 0,
+    "total": 3,
+    "summary": {
+      "早地铁": {
+        "新题": 2,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-03": {
+    "date": "2026-06-03",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0041",
+        "title": "找出未出现的最小正整数",
+        "difficulty": "Hard",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0041_FirstMissingPositive.java"
+      },
+      {
+        "lcId": "LC_0238",
+        "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0238_ProductExceptSelf.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0238",
+            "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0238_ProductExceptSelf.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0041",
+            "title": "找出未出现的最小正整数",
+            "difficulty": "Hard",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0041_FirstMissingPositive.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-02": {
+    "date": "2026-06-02",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0056",
+        "title": "合并所有重叠的区间",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0056_MergeIntervals.java"
+      },
+      {
+        "lcId": "LC_0189",
+        "title": "将数组向右轮转 k 个位置，原地操作",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0189_RotateArray.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0056",
+            "title": "合并所有重叠的区间",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0056_MergeIntervals.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0189",
+            "title": "将数组向右轮转 k 个位置，原地操作",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0189_RotateArray.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-01": {
+    "date": "2026-06-01",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0053",
+        "title": "找出具有最大和的连续子数组，返回最大和",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0053_MaximumSubarray.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0053",
+            "title": "找出具有最大和的连续子数组，返回最大和",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0053_MaximumSubarray.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 1,
+    "reviewCount": 0,
+    "total": 1,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0
+      }
+    }
+  },
+  "2026-05-31": {
+    "date": "2026-05-31",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0015",
+        "title": "找出数组中所有和为 0 且不重复的三元组",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0015_ThreeSum.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0015",
+            "title": "找出数组中所有和为 0 且不重复的三元组",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0015_ThreeSum.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 1,
+    "reviewCount": 0,
+    "total": 1,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0
+      }
+    }
+  },
+  "2026-05-30": {
+    "date": "2026-05-30",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0011",
+        "title": "给定 n 条垂线高度，找出两条线与 x 轴围成容器可容纳的最大水量",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0011_ContainerWithMostWater.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0011",
+            "title": "给定 n 条垂线高度，找出两条线与 x 轴围成容器可容纳的最大水量",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0011_ContainerWithMostWater.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 1,
+    "reviewCount": 0,
+    "total": 1,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0
+      }
+    }
+  },
+  "2026-05-28": {
+    "date": "2026-05-28",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0283",
+        "title": "将数组中的 0 移动到末尾，保持非零元素相对顺序，原地操作",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0283_MoveZeroes.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0283",
+            "title": "将数组中的 0 移动到末尾，保持非零元素相对顺序，原地操作",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0283_MoveZeroes.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 1,
+    "reviewCount": 0,
+    "total": 1,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0
+      }
+    }
+  },
+  "2026-05-27": {
+    "date": "2026-05-27",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0128",
+        "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0128_LongestConsecutiveSequence.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0128",
+            "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0128_LongestConsecutiveSequence.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 1,
+    "reviewCount": 0,
+    "total": 1,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0
+      }
+    }
+  },
+  "2026-05-18": {
+    "date": "2026-05-18",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0001",
+        "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0001_TwoSum.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0001",
+            "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0001_TwoSum.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 1,
+    "reviewCount": 0,
+    "total": 1,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0
+      }
+    }
+  }
+}
