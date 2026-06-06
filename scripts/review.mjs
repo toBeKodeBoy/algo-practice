@@ -16,6 +16,69 @@ const INTERVALS = [
     { round: 'R6', days: 30 },
 ];
 
+function roundIndex(round) {
+    return INTERVALS.findIndex(x => x.round === round);
+}
+
+/** 方案 A：以完成日为锚点，滚动重算后续未完成轮的 due */
+function rescheduleFrom(entry, completedRound, doneDate) {
+    const idx = roundIndex(completedRound);
+    if (idx < 0) return [];
+    let anchor = doneDate;
+    const updated = [];
+    for (let i = idx + 1; i < entry.reviews.length; i++) {
+        const r = entry.reviews[i];
+        if (r.done) continue;
+        anchor = addDays(anchor, INTERVALS[i].days - INTERVALS[i - 1].days);
+        const oldDue = r.due;
+        r.due = anchor;
+        r.rescheduledFrom = completedRound;
+        r.rescheduledOn = doneDate;
+        updated.push({ round: r.round, oldDue, newDue: r.due });
+    }
+    return updated;
+}
+
+function findTargetReview(entry, today, { catchUp = false } = {}) {
+    const pending = entry.reviews.filter(r => !r.done);
+    if (pending.length === 0) return null;
+    const sortByRound = (a, b) => roundIndex(a.round) - roundIndex(b.round);
+    const dueNow = pending.filter(r => r.due <= today).sort(sortByRound);
+    // 多轮逾期时取最高轮，配合 rollup 一次复盘清积压
+    if (catchUp && dueNow.length >= 2) return dueNow[dueNow.length - 1];
+    if (dueNow.length > 0) return dueNow[0];
+    return pending.sort(sortByRound)[0];
+}
+
+function rollupBefore(entry, targetRound, doneDate, slot) {
+    const targetIdx = roundIndex(targetRound);
+    const rolled = [];
+    for (let i = 0; i < targetIdx; i++) {
+        const r = entry.reviews.find(x => x.round === INTERVALS[i].round);
+        if (r && !r.done) {
+            r.done = doneDate;
+            r.slot = slot || null;
+            r.rollup = true;
+            rolled.push(r.round);
+        }
+    }
+    return rolled;
+}
+
+function nextPendingReview(entry) {
+    return entry.reviews.find(r => !r.done) || null;
+}
+
+function applyMark(entry, round, doneDate, slot, { rollup = false } = {}) {
+    const review = entry.reviews.find(r => r.round === round);
+    if (!review) return null;
+    review.done = doneDate;
+    review.slot = slot || null;
+    if (rollup) review.rollup = true;
+    const rescheduled = rescheduleFrom(entry, round, doneDate);
+    return { review, rescheduled };
+}
+
 function addDays(dateStr, days) {
     const d = new Date(dateStr + 'T12:00:00');
     d.setDate(d.getDate() + days);
@@ -138,10 +201,61 @@ function cmdMark(args) {
         console.error(`❌ Round ${round} not found for ${lcId}`);
         process.exit(1);
     }
-    review.done = args.date || todayStr();
-    review.slot = args.slot || null;
+    const doneDate = args.date || todayStr();
+    const result = applyMark(entry, round, doneDate, args.slot || null);
     saveSchedule(schedule);
-    console.log(`✅ Marked ${lcId} ${round} done on ${review.done}`);
+    console.log(`✅ Marked ${lcId} ${round} done on ${result.review.done}`);
+    for (const u of result.rescheduled) {
+        console.log(`   ↳ ${u.round} due ${u.oldDue} → ${u.newDue}`);
+    }
+}
+
+/** 方案 C：复盘专用，自动选轮 + 合并逾期 + 滚动排期 */
+function cmdReview(args) {
+    const lcId = args._[1];
+    if (!lcId) {
+        console.error('Usage: node scripts/review.mjs review LC_0001 --slot 晚地铁 [--date 2026-06-06] [--no-rollup]');
+        process.exit(1);
+    }
+    const schedule = loadSchedule();
+    const entry = schedule[lcId];
+    if (!entry) {
+        console.error(`❌ ${lcId} not found in schedule`);
+        process.exit(1);
+    }
+    const doneDate = args.date || todayStr();
+    const slot = args.slot || null;
+    const useRollup = args['no-rollup'] !== true;
+
+    const overdueCount = entry.reviews.filter(r => !r.done && r.due <= doneDate).length;
+    const target = findTargetReview(entry, doneDate, { catchUp: useRollup && overdueCount >= 2 });
+    if (!target) {
+        console.log(`✅ ${lcId} 全部复习轮次已完成`);
+        return;
+    }
+
+    let rolled = [];
+    if (useRollup) {
+        rolled = rollupBefore(entry, target.round, doneDate, slot);
+    }
+
+    const result = applyMark(entry, target.round, doneDate, slot);
+    saveSchedule(schedule);
+    generateReviewReadme(schedule);
+
+    console.log(`✅ 复盘 ${lcId} [${target.round}] @ ${doneDate}${slot ? ` · ${slot}` : ''}`);
+    if (rolled.length) {
+        console.log(`   合并逾期轮次: ${rolled.join(', ')}`);
+    }
+    for (const u of result.rescheduled) {
+        console.log(`   ↳ ${u.round} due ${u.oldDue} → ${u.newDue}`);
+    }
+    const next = nextPendingReview(entry);
+    if (next) {
+        console.log(`   下次复习: ${next.round} @ ${next.due}`);
+    } else {
+        console.log('   本题复习计划已全部完成');
+    }
 }
 
 function getReviewStatus(entry, today) {
@@ -254,7 +368,12 @@ function cmdDaily() {
     // ── quick cmds ──
     console.log('━━ 打卡命令 ━━');
     for (const r of dueToday.slice(0, 2)) {
-        console.log(`  node scripts/review.mjs mark ${r.lcId} --round ${r.round} --slot 晚地铁`);
+        console.log(`  node scripts/review.mjs review ${r.lcId} --slot 晚地铁`);
+    }
+    if (sortedOverdue.length > 0 && dueToday.length < 2) {
+        for (const [lcId] of sortedOverdue.slice(0, 2 - dueToday.length)) {
+            console.log(`  node scripts/review.mjs review ${lcId} --slot 晚地铁`);
+        }
     }
     console.log('  .\\scripts\\mvn.ps1 test');
     console.log('  node scripts/stats.mjs');
@@ -356,9 +475,10 @@ function generateReviewReadme(schedule) {
 ## 命令
 
 \`\`\`bash
-node scripts/review.mjs today          # 今日到期复习
-node scripts/review.mjs add LC_0049 --date 2026-06-06 --title "字母异位词分组"
+node scripts/review.mjs daily          # 今日计划（新题 + 复习）
+node scripts/review.mjs review LC_0001 --slot 晚地铁   # 复盘（自动选轮 + 滚动排期）
 node scripts/review.mjs mark LC_0003 --round R4 --date 2026-06-11 --slot 晚地铁
+node scripts/review.mjs add LC_0049 --date 2026-06-06 --title "字母异位词分组"
 node scripts/review.mjs sync           # 从题解扫描并同步 schedule
 \`\`\`
 `;
@@ -401,6 +521,7 @@ function main() {
     switch (cmd) {
         case 'add': cmdAdd(args); break;
         case 'mark': cmdMark(args); break;
+        case 'review': cmdReview(args); break;
         case 'today': cmdToday(); break;
         case 'daily': cmdDaily(); break;
         case 'sync': cmdSync(); break;

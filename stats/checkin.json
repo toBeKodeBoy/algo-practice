@@ -14,6 +14,60 @@
     ],
     "reviews": [
       {
+        "lcId": "LC_0001",
+        "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+        "round": "R1",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0001",
+        "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+        "round": "R2",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0001",
+        "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+        "round": "R3",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0001",
+        "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+        "round": "R4",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0001",
+        "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+        "round": "R5",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0128",
+        "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+        "round": "R1",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0128",
+        "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+        "round": "R2",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0128",
+        "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+        "round": "R3",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0128",
+        "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+        "round": "R4",
+        "slot": "晚地铁"
+      },
+      {
         "lcId": "LC_0011",
         "title": "给定 n 条垂线高度，找出两条线与 x 轴围成容器可容纳的最大水量",
         "round": "R4",
@@ -58,8 +112,80 @@
       },
       "晚地铁": {
         "新题": 0,
-        "复习": 6,
+        "复习": 15,
         "items": [
+          {
+            "lcId": "LC_0001",
+            "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R1"
+          },
+          {
+            "lcId": "LC_0001",
+            "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          },
+          {
+            "lcId": "LC_0001",
+            "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          },
+          {
+            "lcId": "LC_0001",
+            "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
+          },
+          {
+            "lcId": "LC_0001",
+            "title": "给定整数数组 nums 和目标值 target，找出和为 target 的两个元素下标",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R5"
+          },
+          {
+            "lcId": "LC_0128",
+            "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R1"
+          },
+          {
+            "lcId": "LC_0128",
+            "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          },
+          {
+            "lcId": "LC_0128",
+            "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          },
+          {
+            "lcId": "LC_0128",
+            "title": "未排序整数数组，找出数字连续的最长序列长度，要求 O(n)",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
+          },
           {
             "lcId": "LC_0011",
             "title": "给定 n 条垂线高度，找出两条线与 x 轴围成容器可容纳的最大水量",
@@ -131,8 +257,8 @@
       }
     },
     "newCount": 1,
-    "reviewCount": 6,
-    "total": 7,
+    "reviewCount": 15,
+    "total": 16,
     "summary": {
       "早地铁": {
         "新题": 0,
@@ -140,7 +266,7 @@
       },
       "晚地铁": {
         "新题": 0,
-        "复习": 6
+        "复习": 15
       }
     }
   },
