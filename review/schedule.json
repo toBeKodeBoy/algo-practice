@@ -567,5 +567,48 @@
     "pitfalls": [
       "滑动窗口"
     ]
+  },
+  "LC_0049": {
+    "title": "给你一个字符串数组，请你把字母异位词组合在一起，可以安装任意顺序结果返回",
+    "firstDone": "2026-06-06",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-13",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-21",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-06",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
   }
 }

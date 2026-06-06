@@ -8,16 +8,16 @@
 
 | 指标 | 数值 |
 |------|------|
-| 总题数 | **13** |
-| 连续打卡 | **0 天** |
+| 总题数 | **14** |
+| 连续打卡 | **1 天** |
 | 最长连续 | **6 天** |
-| 打卡天数 | **9 天** |
+| 打卡天数 | **10 天** |
 
 ## 📈 难度分布
 
 | 难度 | 数量 |
 |------|:----:|
-| Medium | 9 |
+| Medium | 10 |
 | Easy | 3 |
 | Hard | 1 |
 
@@ -40,12 +40,13 @@
 |------|:----:|:----:|
 | 早地铁 | 10 | 0 |
 | 晚地铁 | 3 | 0 |
+| 13:50-14:30 | 1 | 0 |
 
 ## 📆 本周打卡
 
 | 指标 | 数值 |
 |------|------|
-| 有记录天数 | **5** / 7 |
+| 有记录天数 | **6** / 7 |
 | 周目标 (≥5天) | ✅ 达标 |
 
 ## 📋 每日打卡记录
@@ -57,7 +58,7 @@
 | 月份 | 天数 | 总题数 | Easy | Medium | Hard |
 |------|:---:|:------:|:----:|:------:|:----:|
 | 2026-05 | 5 | 5 | 2 | 3 | 0 |
-| 2026-06 | 4 | 8 | 1 | 6 | 1 |
+| 2026-06 | 5 | 9 | 1 | 7 | 1 |
 
 ## 🌡️ 热力图
 
@@ -440,7 +441,7 @@
   <rect class="day" x="817" y="115" width="13" height="13" rx="2" fill="#30a14e" data-date="2026-06-03" data-count="2"/>
   <rect class="day" x="817" y="130" width="13" height="13" rx="2" fill="#216e39" data-date="2026-06-04" data-count="3"/>
   <rect class="day" x="832" y="40" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-05" data-count="0"/>
-  <rect class="day" x="832" y="55" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-06" data-count="0"/>
+  <rect class="day" x="832" y="55" width="13" height="13" rx="2" fill="#40c463" data-date="2026-06-06" data-count="1"/>
 </svg>
 
 ---
@@ -449,6 +450,7 @@
 
 | 日期 | 题目 |
 |------|------|
+| 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) |
 | 2026-06-04 | [LC_0003_LongestSubstringWithoutRepeating](src/main/java/algo/y2026/M06/d04/LC_0003_LongestSubstringWithoutRepeating.java) |
 | 2026-06-04 | [LC_0026_RemoveDuplicates](src/main/java/algo/y2026/M06/d04/LC_0026_RemoveDuplicates.java) |
 | 2026-06-04 | [LC_0076_MinWindowSubstring](src/main/java/algo/y2026/M06/d04/LC_0076_MinWindowSubstring.java) |

@@ -2,7 +2,16 @@
   "2026-06-06": {
     "date": "2026-06-06",
     "checkedIn": true,
-    "problems": [],
+    "problems": [
+      {
+        "lcId": "LC_0049",
+        "title": "给你一个字符串数组，请你把字母异位词组合在一起，可以安装任意顺序结果返回",
+        "difficulty": "Medium",
+        "slot": "13:50-14:30",
+        "type": "新题",
+        "file": "LC_0049_GroupAnagrams.java"
+      }
+    ],
     "reviews": [
       {
         "lcId": "LC_0011",
@@ -105,11 +114,25 @@
         "新题": 0,
         "复习": 0,
         "items": []
+      },
+      "13:50-14:30": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0049",
+            "title": "给你一个字符串数组，请你把字母异位词组合在一起，可以安装任意顺序结果返回",
+            "difficulty": "Medium",
+            "slot": "13:50-14:30",
+            "type": "新题",
+            "file": "LC_0049_GroupAnagrams.java"
+          }
+        ]
       }
     },
-    "newCount": 0,
+    "newCount": 1,
     "reviewCount": 6,
-    "total": 6,
+    "total": 7,
     "summary": {
       "早地铁": {
         "新题": 0,

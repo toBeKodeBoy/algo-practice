@@ -69,14 +69,14 @@ algo-practice/
 
 | 指标 | 数值 |
 |------|------|
-| 总进度 | **13/100** (13%) |
+| 总进度 | **14/100** (14%) |
 | 当前阶段 | **P1** |
 
 ### 分阶段
 
 | 阶段 | 专题 | 已完成 | 总数 | 进度 |
 |:----:|------|:------:|:----:|:----:|
-| P1 | 数组/哈希/双指针/二分/滑窗 | 13 | 25 | 52% |
+| P1 | 数组/哈希/双指针/二分/滑窗 | 14 | 25 | 56% |
 | P2 | 链表 | 0 | 11 | 0% |
 | P3 | 二叉树 | 0 | 14 | 0% |
 | P4 | 栈队列/贪心/DP | 0 | 26 | 0% |
@@ -84,7 +84,6 @@ algo-practice/
 
 ### P1 待做（优先）
 
-- LC 49 字母异位词分组
 - LC 80 删除有序数组中的重复项 II
 - LC 167 两数之和 II
 - LC 209 长度最小的子数组
@@ -106,6 +105,7 @@ algo-practice/
 
 | 日期 | 题目 | 难度 | 标签 |
 |------|------|:----:|------|
+| 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) | Medium | - |
 | 2026-06-04 | [LC_0003_LongestSubstringWithoutRepeating](src/main/java/algo/y2026/M06/d04/LC_0003_LongestSubstringWithoutRepeating.java) | Medium | 哈希表, 滑动窗口 |
 | 2026-06-04 | [LC_0026_RemoveDuplicates](src/main/java/algo/y2026/M06/d04/LC_0026_RemoveDuplicates.java) | Easy | 数组, 快慢指针 |
 | 2026-06-04 | [LC_0076_MinWindowSubstring](src/main/java/algo/y2026/M06/d04/LC_0076_MinWindowSubstring.java) | Medium | 滑动窗口 |
