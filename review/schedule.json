@@ -109,38 +109,45 @@
       {
         "round": "R1",
         "due": "2026-05-29",
-        "done": null,
-        "slot": null
+        "done": "2026-06-07",
+        "slot": "晚地铁",
+        "rollup": true
       },
       {
         "round": "R2",
         "due": "2026-05-30",
-        "done": null,
-        "slot": null
+        "done": "2026-06-07",
+        "slot": "晚地铁",
+        "rollup": true
       },
       {
         "round": "R3",
         "due": "2026-06-01",
-        "done": null,
-        "slot": null
+        "done": "2026-06-07",
+        "slot": "晚地铁",
+        "rollup": true
       },
       {
         "round": "R4",
         "due": "2026-06-04",
-        "done": null,
-        "slot": null
+        "done": "2026-06-07",
+        "slot": "晚地铁"
       },
       {
         "round": "R5",
-        "due": "2026-06-12",
+        "due": "2026-06-15",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-07"
       },
       {
         "round": "R6",
-        "due": "2026-06-27",
+        "due": "2026-06-30",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-07"
       }
     ],
     "pitfalls": []
@@ -152,20 +159,22 @@
       {
         "round": "R1",
         "due": "2026-05-31",
-        "done": null,
-        "slot": null
+        "done": "2026-06-07",
+        "slot": "晚地铁",
+        "rollup": true
       },
       {
         "round": "R2",
         "due": "2026-06-01",
-        "done": null,
-        "slot": null
+        "done": "2026-06-07",
+        "slot": "晚地铁",
+        "rollup": true
       },
       {
         "round": "R3",
         "due": "2026-06-03",
-        "done": null,
-        "slot": null
+        "done": "2026-06-07",
+        "slot": "晚地铁"
       },
       {
         "round": "R4",
@@ -175,15 +184,19 @@
       },
       {
         "round": "R5",
-        "due": "2026-06-14",
+        "due": "2026-06-15",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R3",
+        "rescheduledOn": "2026-06-07"
       },
       {
         "round": "R6",
-        "due": "2026-06-29",
+        "due": "2026-06-30",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R3",
+        "rescheduledOn": "2026-06-07"
       }
     ],
     "pitfalls": []
