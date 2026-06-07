@@ -26,3 +26,24 @@ public class LC_0001_TwoSum {
         return new int[0];
     }
 }
+
+//复习1:2026-06-06 22:10-22:30
+//算法核心：遍历数组，如果target-current 再hash结构有没有，如果没有添加元素，如果有直接返回
+//public int[] twoSum(int[] nums,int target){
+//    // 数组鲁棒性验证
+//    if(nums == null || nums.length == 0) return new int[0] ;
+//
+//    // 两数之和为target，第一个数为遍历的每个数字，第二个数字是hash结构
+//    // 如果遍历的时候存在target-current 说明找到结果了
+//    // 如果不存在，current添加到hash结构
+//    Map<Integer,Integer> map = new HashMap<>();
+//    for(int i=0;i<nums.length;i++){
+//        if(map.containsKey(target-nums[i])){
+//            return new int[]{i,map.get(target-nums[i])};
+//        }
+//        map.put(nums[i],i);
+//    }
+//
+//    // 返回最终结果
+//    return new int[0];
+//}

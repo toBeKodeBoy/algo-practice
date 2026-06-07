@@ -10,7 +10,7 @@ import java.util.*;
 // 最终返回 map 中所有分组列表。
 // 时间nk*logk 空间nk
 // 难度 Medium
-// 标签
+// 标签 数组, 哈希表
 // 复盘
 // 时段 13:50-14:30
 // 类型 新题
@@ -43,3 +43,29 @@ public class LC_0049_GroupAnagrams {
 // 字符串数组转换字符数组，再排序，["abc","abc","ade"]
 // 遍历字符串数组，排序，如果存在hash，添加原始数据，也是添加 如何确定新旧hash while(hash
 // 思考过程：13:50-14:10 出现的 问题：无法确定新旧hash
+
+
+//        字母异位词分组
+//        str=["abc","bca","ade"] => [["abc","bca"],["ade"]]
+//
+//        思路：字符串数组的元素，排序后如果是一致的，说明是一类异位词分组
+//        public List<List<String>> groupAnagrams(String[] strs){
+//            // 鲁棒性验证
+//            if(strs == null || strs.length == 0) return null;
+//
+//            // 排序后处理
+//            Map<String,List<String>> map = new HashMap<>();
+//            for(String item : strs){
+//                char[] array = item.toCharArray();
+//                Arrays.sort(array);
+//                String key = new String(array);
+//                // 如果key不存在，直接创建分组list，并且添加当前元素
+//                // 如果key存在，直接返回原来的分组list，同时添加当前元素
+//                // 这样就可以区分哪个分组了
+//                map.putIfAbsent(key,k->new ArrayList<>()).add(item);
+//            }
+//
+//            // 返回最终结果
+//            return new ArrayList<>(map.values());
+//        }
+// 复盘 21:50-22:10

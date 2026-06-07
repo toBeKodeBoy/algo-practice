@@ -11,8 +11,7 @@ algo-practice/
 ├── .gitignore
 ├── pom.xml                          # Maven 项目
 ├── README.md                        # 项目总览 & 进度看板
-├── ROUTINE.md                       # 地铁刷题每日节奏
-├── pitfalls.md                      # 易错点库
+├── docs/                            # 每日节奏 & 易错点文档
 ├── scripts/
 │   ├── stats.mjs                    # 统计脚本（打卡/热力图/进度）
 │   └── review.mjs                   # 艾宾浩斯复习表
@@ -53,15 +52,56 @@ algo-practice/
 
 **示例路径：** `src/main/java/algo/y2026/M06/d04/LC_0076_MinWindowSubstring.java`
 
-## 统计与复习
+## 使用方式
 
-| 命令 | 说明 |
-|------|------|
-| `node scripts/stats.mjs` | 打卡热力图、每日打卡记录、地铁时段统计、Hot 100 进度 |
-| `node scripts/review.mjs today` | 今日艾宾浩斯到期复习 |
-| `node scripts/review.mjs sync` | 从题解同步复习计划 |
+### 每日学习（早地铁）
 
-每日节奏见 [ROUTINE.md](ROUTINE.md)，易错点见 [pitfalls.md](pitfalls.md)。
+```bash
+# 查看今日复习清单 & 推荐新题
+node scripts/review.mjs today
+
+# 创建题解文件（参考 template/Solution.java）
+# src/main/java/algo/y2026/M06/d06/LC_xxxx_Title.java
+```
+
+### 每日复盘（晚地铁 / 结束后）
+
+```bash
+# 复习到期题目（完成后标记）
+node scripts/review.mjs review LC_xxxx --slot 晚地铁
+
+# 运行测试
+mvn test
+
+# 生成打卡记录 & 统计面板
+node scripts/stats.mjs
+
+# 同步艾宾浩斯复习计划
+node scripts/review.mjs sync
+```
+
+### 动态更新项目
+
+```bash
+# 日常刷新统计 & 复习计划
+node scripts/stats.mjs
+node scripts/review.mjs sync
+
+# 查看今日到期复习
+node scripts/review.mjs today
+
+# 手动添加复习记录
+node scripts/review.mjs add LC_xxxx --date YYYY-MM-DD --title "..."
+
+# 手动标记复习完成
+node scripts/review.mjs mark LC_xxxx --round R4 --date YYYY-MM-DD --slot 晚地铁
+
+# 提交变更
+git add .
+git commit -m "feat: YYYY-MM-DD add Title"
+```
+
+每日节奏见 [ROUTINE.md](docs/ROUTINE.md)，易错点见 [pitfalls.md](docs/pitfalls.md)。
 
 <!-- PROGRESS_START -->
 
@@ -105,7 +145,7 @@ algo-practice/
 
 | 日期 | 题目 | 难度 | 标签 |
 |------|------|:----:|------|
-| 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) | Medium | - |
+| 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) | Medium | 数组, 哈希表 |
 | 2026-06-04 | [LC_0003_LongestSubstringWithoutRepeating](src/main/java/algo/y2026/M06/d04/LC_0003_LongestSubstringWithoutRepeating.java) | Medium | 哈希表, 滑动窗口 |
 | 2026-06-04 | [LC_0026_RemoveDuplicates](src/main/java/algo/y2026/M06/d04/LC_0026_RemoveDuplicates.java) | Easy | 数组, 快慢指针 |
 | 2026-06-04 | [LC_0076_MinWindowSubstring](src/main/java/algo/y2026/M06/d04/LC_0076_MinWindowSubstring.java) | Medium | 滑动窗口 |
@@ -121,24 +161,3 @@ algo-practice/
 | 2026-05-18 | [LC_0001_TwoSum](src/main/java/algo/y2026/M05/d18/LC_0001_TwoSum.java) | Easy | 数组, 哈希表 |
 
 <!-- SOLUTIONS_END -->
-
-## 使用方式
-
-```bash
-# 1. 查看今日复习
-node scripts/review.mjs today
-
-# 2. 创建题解 (参考 template/Solution.java)
-#    src/main/java/algo/y2026/M06/d06/LC_xxxx_Title.java
-
-# 3. 运行测试验证
-mvn test
-
-# 4. 刷新统计 + 复习表
-node scripts/stats.mjs
-node scripts/review.mjs sync
-
-# 5. 提交记录
-git add .
-git commit -m "feat: 2026-06-06 add Title solution"
-```
