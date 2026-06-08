@@ -1,4 +1,413 @@
 {
+  "2026-06-13": {
+    "date": "2026-06-13",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0004",
+        "title": "寻找两个正序数组的中位数，要求 O(log(m+n))",
+        "difficulty": "Hard",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0004_MedianOfTwoSortedArrays.java"
+      },
+      {
+        "lcId": "LC_0042",
+        "title": "接雨水，给定柱子高度数组，计算能接多少雨水",
+        "difficulty": "Hard",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0042_TrappingRainWater.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0004",
+            "title": "寻找两个正序数组的中位数，要求 O(log(m+n))",
+            "difficulty": "Hard",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0004_MedianOfTwoSortedArrays.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0042",
+            "title": "接雨水，给定柱子高度数组，计算能接多少雨水",
+            "difficulty": "Hard",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0042_TrappingRainWater.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-12": {
+    "date": "2026-06-12",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0153",
+        "title": "寻找旋转排序数组中的最小值（无重复）",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0153_FindMinimumInRotatedSortedArray.java"
+      },
+      {
+        "lcId": "LC_0239",
+        "title": "滑动窗口最大值，返回每个窗口内最大值",
+        "difficulty": "Hard",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0239_SlidingWindowMaximum.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0153",
+            "title": "寻找旋转排序数组中的最小值（无重复）",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0153_FindMinimumInRotatedSortedArray.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0239",
+            "title": "滑动窗口最大值，返回每个窗口内最大值",
+            "difficulty": "Hard",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0239_SlidingWindowMaximum.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-11": {
+    "date": "2026-06-11",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0033",
+        "title": "搜索旋转排序数组（无重复）",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0033_SearchInRotatedSortedArray.java"
+      },
+      {
+        "lcId": "LC_0034",
+        "title": "在排序数组中查找目标值的第一个和最后一个位置",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0034_FindFirstAndLastPositionOfElementInSortedArray.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0034",
+            "title": "在排序数组中查找目标值的第一个和最后一个位置",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0034_FindFirstAndLastPositionOfElementInSortedArray.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0033",
+            "title": "搜索旋转排序数组（无重复）",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0033_SearchInRotatedSortedArray.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-10": {
+    "date": "2026-06-10",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0035",
+        "title": "给定排序数组和目标值，查找插入位置",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0035_SearchInsertPosition.java"
+      },
+      {
+        "lcId": "LC_0074",
+        "title": "搜索二维矩阵（每行递增，每行首 > 上行末）",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0074_SearchA2DMatrix.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0035",
+            "title": "给定排序数组和目标值，查找插入位置",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0035_SearchInsertPosition.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0074",
+            "title": "搜索二维矩阵（每行递增，每行首 > 上行末）",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0074_SearchA2DMatrix.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-09": {
+    "date": "2026-06-09",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0167",
+        "title": "给定已升序数组 numbers，找出两个数使其和等于 target，返回下标+1",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0167_TwoSumII.java"
+      },
+      {
+        "lcId": "LC_0209",
+        "title": "给定正整数数组 nums 和正整数 target，找出满足和 ≥ target 的最短连续子数组长度",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0209_MinimumSizeSubarraySum.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0167",
+            "title": "给定已升序数组 numbers，找出两个数使其和等于 target，返回下标+1",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0167_TwoSumII.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0209",
+            "title": "给定正整数数组 nums 和正整数 target，找出满足和 ≥ target 的最短连续子数组长度",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0209_MinimumSizeSubarraySum.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-08": {
+    "date": "2026-06-08",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0080",
+        "title": "删除有序数组中的重复项 II，每个元素最多出现两次",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0080_RemoveDuplicatesII.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0080",
+            "title": "删除有序数组中的重复项 II，每个元素最多出现两次",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0080_RemoveDuplicatesII.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 1,
+    "reviewCount": 0,
+    "total": 1,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 0
+      }
+    }
+  },
   "2026-06-07": {
     "date": "2026-06-07",
     "checkedIn": true,

@@ -109,32 +109,18 @@ git commit -m "feat: YYYY-MM-DD add Title"
 
 | 指标 | 数值 |
 |------|------|
-| 总进度 | **14/100** (14%) |
-| 当前阶段 | **P1** |
+| 总进度 | **25/100** (25%) |
+| 当前阶段 | **P2** |
 
 ### 分阶段
 
 | 阶段 | 专题 | 已完成 | 总数 | 进度 |
 |:----:|------|:------:|:----:|:----:|
-| P1 | 数组/哈希/双指针/二分/滑窗 | 14 | 25 | 56% |
+| P1 | 数组/哈希/双指针/二分/滑窗 | 25 | 25 | 100% |
 | P2 | 链表 | 0 | 11 | 0% |
 | P3 | 二叉树 | 0 | 14 | 0% |
 | P4 | 栈队列/贪心/DP | 0 | 26 | 0% |
 | P5 | 回溯/图/并查集/堆/位运算/数学 | 0 | 24 | 0% |
-
-### P1 待做（优先）
-
-- LC 80 删除有序数组中的重复项 II
-- LC 167 两数之和 II
-- LC 209 长度最小的子数组
-- LC 35 搜索插入位置
-- LC 74 搜索二维矩阵
-- LC 34 在排序数组中查找元素的第一个和最后一个位置
-- LC 33 搜索旋转排序数组
-- LC 153 寻找旋转排序数组中的最小值
-- LC 239 滑动窗口最大值
-- LC 4 寻找两个正序数组的中位数
-- LC 42 接雨水
 
 
 <!-- PROGRESS_END -->
@@ -145,6 +131,17 @@ git commit -m "feat: YYYY-MM-DD add Title"
 
 | 日期 | 题目 | 难度 | 标签 |
 |------|------|:----:|------|
+| 2026-06-13 | [LC_0004_MedianOfTwoSortedArrays](src/main/java/algo/y2026/M06/d13/LC_0004_MedianOfTwoSortedArrays.java) | Hard | 数组, 二分查找, 分治 |
+| 2026-06-13 | [LC_0042_TrappingRainWater](src/main/java/algo/y2026/M06/d13/LC_0042_TrappingRainWater.java) | Hard | 数组, 双指针, 单调栈 |
+| 2026-06-12 | [LC_0153_FindMinimumInRotatedSortedArray](src/main/java/algo/y2026/M06/d12/LC_0153_FindMinimumInRotatedSortedArray.java) | Medium | 数组, 二分查找 |
+| 2026-06-12 | [LC_0239_SlidingWindowMaximum](src/main/java/algo/y2026/M06/d12/LC_0239_SlidingWindowMaximum.java) | Hard | 队列, 滑动窗口, 单调队列 |
+| 2026-06-11 | [LC_0033_SearchInRotatedSortedArray](src/main/java/algo/y2026/M06/d11/LC_0033_SearchInRotatedSortedArray.java) | Medium | 数组, 二分查找 |
+| 2026-06-11 | [LC_0034_FindFirstAndLastPositionOfElementInSortedArray](src/main/java/algo/y2026/M06/d11/LC_0034_FindFirstAndLastPositionOfElementInSortedArray.java) | Medium | 数组, 二分查找 |
+| 2026-06-10 | [LC_0035_SearchInsertPosition](src/main/java/algo/y2026/M06/d10/LC_0035_SearchInsertPosition.java) | Easy | 数组, 二分查找 |
+| 2026-06-10 | [LC_0074_SearchA2DMatrix](src/main/java/algo/y2026/M06/d10/LC_0074_SearchA2DMatrix.java) | Medium | 数组, 二分查找, 矩阵 |
+| 2026-06-09 | [LC_0167_TwoSumII](src/main/java/algo/y2026/M06/d09/LC_0167_TwoSumII.java) | Medium | 数组, 双指针, 二分查找 |
+| 2026-06-09 | [LC_0209_MinimumSizeSubarraySum](src/main/java/algo/y2026/M06/d09/LC_0209_MinimumSizeSubarraySum.java) | Medium | 数组, 滑动窗口 |
+| 2026-06-08 | [LC_0080_RemoveDuplicatesII](src/main/java/algo/y2026/M06/d08/LC_0080_RemoveDuplicatesII.java) | Medium | 数组, 快慢指针 |
 | 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) | Medium | 数组, 哈希表 |
 | 2026-06-04 | [LC_0003_LongestSubstringWithoutRepeating](src/main/java/algo/y2026/M06/d04/LC_0003_LongestSubstringWithoutRepeating.java) | Medium | 哈希表, 滑动窗口 |
 | 2026-06-04 | [LC_0026_RemoveDuplicates](src/main/java/algo/y2026/M06/d04/LC_0026_RemoveDuplicates.java) | Easy | 数组, 快慢指针 |
