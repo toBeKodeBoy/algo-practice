@@ -636,5 +636,478 @@
       }
     ],
     "pitfalls": []
+  },
+  "LC_0080": {
+    "title": "删除有序数组中的重复项 II，每个元素最多出现两次",
+    "firstDone": "2026-06-08",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-09",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-12",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-23",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-08",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0167": {
+    "title": "给定已升序数组 numbers，找出两个数使其和等于 target，返回下标+1",
+    "firstDone": "2026-06-09",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-13",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-16",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-24",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-09",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0209": {
+    "title": "给定正整数数组 nums 和正整数 target，找出满足和 ≥ target 的最短连续子数组长度",
+    "firstDone": "2026-06-09",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-13",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-16",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-24",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-09",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0035": {
+    "title": "给定排序数组和目标值，查找插入位置",
+    "firstDone": "2026-06-10",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-12",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-25",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-10",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0074": {
+    "title": "搜索二维矩阵（每行递增，每行首 > 上行末）",
+    "firstDone": "2026-06-10",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-12",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-25",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-10",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0033": {
+    "title": "搜索旋转排序数组（无重复）",
+    "firstDone": "2026-06-11",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-12",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-13",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-18",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-11",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0034": {
+    "title": "在排序数组中查找目标值的第一个和最后一个位置",
+    "firstDone": "2026-06-11",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-12",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-13",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-18",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-11",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0153": {
+    "title": "寻找旋转排序数组中的最小值（无重复）",
+    "firstDone": "2026-06-12",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-13",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-16",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-19",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-12",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0239": {
+    "title": "滑动窗口最大值，返回每个窗口内最大值",
+    "firstDone": "2026-06-12",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-13",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-16",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-19",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-12",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0004": {
+    "title": "寻找两个正序数组的中位数，要求 O(log(m+n))",
+    "firstDone": "2026-06-13",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-20",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-28",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-13",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0042": {
+    "title": "接雨水，给定柱子高度数组，计算能接多少雨水",
+    "firstDone": "2026-06-13",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-20",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-06-28",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-13",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
   }
 }
