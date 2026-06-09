@@ -304,7 +304,26 @@
         "file": "LC_0209_MinimumSizeSubarraySum.java"
       }
     ],
-    "reviews": [],
+    "reviews": [
+      {
+        "lcId": "LC_0056",
+        "title": "合并所有重叠的区间",
+        "round": "R4",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0189",
+        "title": "将数组向右轮转 k 个位置，原地操作",
+        "round": "R4",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0080",
+        "title": "删除有序数组中的重复项 II，每个元素最多出现两次",
+        "round": "R1",
+        "slot": "晚地铁"
+      }
+    ],
     "slots": {
       "早地铁": {
         "新题": 1,
@@ -322,7 +341,7 @@
       },
       "晚地铁": {
         "新题": 1,
-        "复习": 0,
+        "复习": 3,
         "items": [
           {
             "lcId": "LC_0209",
@@ -331,6 +350,30 @@
             "slot": "晚地铁",
             "type": "新题",
             "file": "LC_0209_MinimumSizeSubarraySum.java"
+          },
+          {
+            "lcId": "LC_0056",
+            "title": "合并所有重叠的区间",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
+          },
+          {
+            "lcId": "LC_0189",
+            "title": "将数组向右轮转 k 个位置，原地操作",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
+          },
+          {
+            "lcId": "LC_0080",
+            "title": "删除有序数组中的重复项 II，每个元素最多出现两次",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R1"
           }
         ]
       },
@@ -341,8 +384,8 @@
       }
     },
     "newCount": 2,
-    "reviewCount": 0,
-    "total": 2,
+    "reviewCount": 3,
+    "total": 5,
     "summary": {
       "早地铁": {
         "新题": 1,
@@ -350,7 +393,7 @@
       },
       "晚地铁": {
         "新题": 1,
-        "复习": 0
+        "复习": 3
       }
     }
   },
