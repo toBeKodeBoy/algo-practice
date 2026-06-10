@@ -3,10 +3,18 @@ package algo.y2026.M06.d10;
 // 题目 给定排序数组和目标值，查找插入位置
 // 示例 [1,3,5,6], 5 => 2
 // leetcode https://leetcode.cn/problems/search-insert-position/
-// 算法核心 标准二分查找，返回左边界（即插入位置）
+// 算法核心 标准二分查找，循环不变量 [left, right]，退出时 left 即为插入位置
+// 执行过程 nums=[1,3,5,6], target=2
+//   left=0 right=3 mid=1 val=3>2 → right=0
+//   left=0 right=0 mid=0 val=1<2 → left=1
+//   left=1 right=0 终止，return left=1 ✔
 // 时间 O(log n) 空间 O(1)
 // 难度 Easy
 // 标签 数组, 二分查找
+// Java语法实现
+//   - left + (right-left)/2 防溢出
+//   - while(left <= right) 闭区间写法
+//   - 返回值 left 天然是插入位置
 // 时段 早地铁
 // 类型 新题
 

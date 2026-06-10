@@ -228,15 +228,64 @@
         "lcId": "LC_0074",
         "title": "搜索二维矩阵（每行递增，每行首 > 上行末）",
         "difficulty": "Medium",
-        "slot": "晚地铁",
+        "slot": "早地铁",
         "type": "新题",
         "file": "LC_0074_SearchA2DMatrix.java"
       }
     ],
-    "reviews": [],
+    "reviews": [
+      {
+        "lcId": "LC_0041",
+        "title": "找出未出现的最小正整数",
+        "round": "R1",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0041",
+        "title": "找出未出现的最小正整数",
+        "round": "R2",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0041",
+        "title": "找出未出现的最小正整数",
+        "round": "R3",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0041",
+        "title": "找出未出现的最小正整数",
+        "round": "R4",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0238",
+        "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+        "round": "R1",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0238",
+        "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+        "round": "R2",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0238",
+        "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+        "round": "R3",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0238",
+        "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+        "round": "R4",
+        "slot": "晚地铁"
+      }
+    ],
     "slots": {
       "早地铁": {
-        "新题": 1,
+        "新题": 2,
         "复习": 0,
         "items": [
           {
@@ -246,20 +295,84 @@
             "slot": "早地铁",
             "type": "新题",
             "file": "LC_0035_SearchInsertPosition.java"
-          }
-        ]
-      },
-      "晚地铁": {
-        "新题": 1,
-        "复习": 0,
-        "items": [
+          },
           {
             "lcId": "LC_0074",
             "title": "搜索二维矩阵（每行递增，每行首 > 上行末）",
             "difficulty": "Medium",
-            "slot": "晚地铁",
+            "slot": "早地铁",
             "type": "新题",
             "file": "LC_0074_SearchA2DMatrix.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 0,
+        "复习": 8,
+        "items": [
+          {
+            "lcId": "LC_0041",
+            "title": "找出未出现的最小正整数",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R1"
+          },
+          {
+            "lcId": "LC_0041",
+            "title": "找出未出现的最小正整数",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          },
+          {
+            "lcId": "LC_0041",
+            "title": "找出未出现的最小正整数",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          },
+          {
+            "lcId": "LC_0041",
+            "title": "找出未出现的最小正整数",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
+          },
+          {
+            "lcId": "LC_0238",
+            "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R1"
+          },
+          {
+            "lcId": "LC_0238",
+            "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          },
+          {
+            "lcId": "LC_0238",
+            "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          },
+          {
+            "lcId": "LC_0238",
+            "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
           }
         ]
       },
@@ -270,16 +383,16 @@
       }
     },
     "newCount": 2,
-    "reviewCount": 0,
-    "total": 2,
+    "reviewCount": 8,
+    "total": 10,
     "summary": {
       "早地铁": {
-        "新题": 1,
+        "新题": 2,
         "复习": 0
       },
       "晚地铁": {
-        "新题": 1,
-        "复习": 0
+        "新题": 0,
+        "复习": 8
       }
     }
   },
@@ -954,7 +1067,7 @@
         "title": "找出未出现的最小正整数",
         "difficulty": "Hard",
         "slot": "晚地铁",
-        "type": "新题",
+        "type": "复习",
         "file": "LC_0041_FirstMissingPositive.java"
       },
       {
@@ -962,36 +1075,36 @@
         "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
         "difficulty": "Medium",
         "slot": "早地铁",
-        "type": "新题",
+        "type": "复习",
         "file": "LC_0238_ProductExceptSelf.java"
       }
     ],
     "reviews": [],
     "slots": {
       "早地铁": {
-        "新题": 1,
-        "复习": 0,
+        "新题": 0,
+        "复习": 1,
         "items": [
           {
             "lcId": "LC_0238",
             "title": "返回数组 answer，answer[i] 等于 nums 中除 nums[i] 外其余元素乘积，O(n) 且不用除法",
             "difficulty": "Medium",
             "slot": "早地铁",
-            "type": "新题",
+            "type": "复习",
             "file": "LC_0238_ProductExceptSelf.java"
           }
         ]
       },
       "晚地铁": {
-        "新题": 1,
-        "复习": 0,
+        "新题": 0,
+        "复习": 1,
         "items": [
           {
             "lcId": "LC_0041",
             "title": "找出未出现的最小正整数",
             "difficulty": "Hard",
             "slot": "晚地铁",
-            "type": "新题",
+            "type": "复习",
             "file": "LC_0041_FirstMissingPositive.java"
           }
         ]
@@ -1002,17 +1115,17 @@
         "items": []
       }
     },
-    "newCount": 2,
-    "reviewCount": 0,
+    "newCount": 0,
+    "reviewCount": 2,
     "total": 2,
     "summary": {
       "早地铁": {
-        "新题": 1,
-        "复习": 0
+        "新题": 0,
+        "复习": 1
       },
       "晚地铁": {
-        "新题": 1,
-        "复习": 0
+        "新题": 0,
+        "复习": 1
       }
     }
   },
