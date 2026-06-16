@@ -146,7 +146,7 @@ git commit -m "feat: YYYY-MM-DD add Title"
 | 2026-06-04 | [LC_0003_LongestSubstringWithoutRepeating](src/main/java/algo/y2026/M06/d04/LC_0003_LongestSubstringWithoutRepeating.java) | Medium | 哈希表, 滑动窗口 |
 | 2026-06-04 | [LC_0026_RemoveDuplicates](src/main/java/algo/y2026/M06/d04/LC_0026_RemoveDuplicates.java) | Easy | 数组, 快慢指针 |
 | 2026-06-04 | [LC_0076_MinWindowSubstring](src/main/java/algo/y2026/M06/d04/LC_0076_MinWindowSubstring.java) | Medium | 滑动窗口 |
-| 2026-06-03 | [LC_0041_FirstMissingPositive](src/main/java/algo/y2026/M06/d03/LC_0041_FirstMissingPositive.java) | Hard | 数组 |
+| 2026-06-03 | [LC_0041_FirstMissingPositive](src/main/java/algo/y2026/M06/d03/LC_0041_FirstMissingPositive.java) | Hard | 数组, 原地哈希 |
 | 2026-06-03 | [LC_0238_ProductExceptSelf](src/main/java/algo/y2026/M06/d03/LC_0238_ProductExceptSelf.java) | Medium | 数组, 前缀和 |
 | 2026-06-02 | [LC_0056_MergeIntervals](src/main/java/algo/y2026/M06/d02/LC_0056_MergeIntervals.java) | Medium | 数组, 排序 |
 | 2026-06-02 | [LC_0189_RotateArray](src/main/java/algo/y2026/M06/d02/LC_0189_RotateArray.java) | Medium | 数组 |

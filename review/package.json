@@ -1,0 +1,17 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "description": "> 自动生成于 2026-06-10 | 间隔：+1 / +2 / +4 / +7 / +15 / +30 天",
+  "main": "gen_pdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "markdown-it": "^14.2.0",
+    "puppeteer-core": "^25.1.0"
+  }
+}
