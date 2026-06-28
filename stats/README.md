@@ -8,56 +8,64 @@
 
 | 指标 | 数值 |
 |------|------|
-| 总题数 | **32** |
+| 总题数 | **42** |
 | 连续打卡 | **0 天** |
-| 最长连续 | **7 天** |
-| 打卡天数 | **23 天** |
+| 最长连续 | **12 天** |
+| 打卡天数 | **28 天** |
 
 ## 📈 难度分布
 
 | 难度 | 数量 |
 |------|:----:|
-| Medium | 22 |
-| Easy | 6 |
-| Hard | 4 |
+| Medium | 25 |
+| Easy | 11 |
+| Hard | 6 |
 
 ## 🏷️ 标签分布
 
 | 标签 | 数量 |
 |------|:----:|
 | 数组 | 22 |
+| 链表 | 11 |
 | 双指针 | 9 |
 | 二分查找 | 7 |
-| 链表 | 7 |
-| 哈希表 | 4 |
+| 二叉树 | 6 |
+| 哈希表 | 5 |
 | 滑动窗口 | 4 |
-| 排序 | 2 |
+| 排序 | 3 |
+| 分治 | 3 |
+| DFS | 3 |
+| BFS | 3 |
 | 快慢指针 | 2 |
+| 队列 | 2 |
+| 递归 | 2 |
 | 动态规划 | 1 |
 | 原地哈希 | 1 |
 | 前缀和 | 1 |
 | 矩阵 | 1 |
-| 队列 | 1 |
 | 单调队列 | 1 |
-| 分治 | 1 |
 | 单调栈 | 1 |
-| 递归 | 1 |
 | 数学 | 1 |
+| 堆 | 1 |
+| 翻转 | 1 |
+| 归并 | 1 |
+| 遍历 | 1 |
+| 栈 | 1 |
 
 ## 🚇 地铁时段统计
 
 | 时段 | 新题 | 复习 |
 |------|:----:|:----:|
-| 早地铁 | 23 | 1 |
-| 晚地铁 | 6 | 1 |
+| 早地铁 | 28 | 1 |
+| 晚地铁 | 11 | 1 |
 | 13:50-14:30 | 1 | 0 |
 
 ## 📆 本周打卡
 
 | 指标 | 数值 |
 |------|------|
-| 有记录天数 | **0** / 7 |
-| 周目标 (≥5天) | ❌ 未达标 |
+| 有记录天数 | **5** / 7 |
+| 周目标 (≥5天) | ✅ 达标 |
 
 ## 📋 每日打卡记录
 
@@ -68,7 +76,7 @@
 | 月份 | 天数 | 总题数 | Easy | Medium | Hard |
 |------|:---:|:------:|:----:|:------:|:----:|
 | 2026-05 | 5 | 5 | 2 | 3 | 0 |
-| 2026-06 | 18 | 27 | 4 | 19 | 4 |
+| 2026-06 | 23 | 37 | 9 | 22 | 6 |
 
 ## 🌡️ 热力图
 
@@ -445,11 +453,11 @@
   <rect class="day" x="802" y="130" width="13" height="13" rx="2" fill="#40c463" data-date="2026-06-19" data-count="1"/>
   <rect class="day" x="817" y="40" width="13" height="13" rx="2" fill="#40c463" data-date="2026-06-20" data-count="1"/>
   <rect class="day" x="817" y="55" width="13" height="13" rx="2" fill="#40c463" data-date="2026-06-21" data-count="1"/>
-  <rect class="day" x="817" y="70" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-22" data-count="0"/>
-  <rect class="day" x="817" y="85" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-23" data-count="0"/>
-  <rect class="day" x="817" y="100" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-24" data-count="0"/>
-  <rect class="day" x="817" y="115" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-25" data-count="0"/>
-  <rect class="day" x="817" y="130" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-26" data-count="0"/>
+  <rect class="day" x="817" y="70" width="13" height="13" rx="2" fill="#30a14e" data-date="2026-06-22" data-count="2"/>
+  <rect class="day" x="817" y="85" width="13" height="13" rx="2" fill="#30a14e" data-date="2026-06-23" data-count="2"/>
+  <rect class="day" x="817" y="100" width="13" height="13" rx="2" fill="#30a14e" data-date="2026-06-24" data-count="2"/>
+  <rect class="day" x="817" y="115" width="13" height="13" rx="2" fill="#30a14e" data-date="2026-06-25" data-count="2"/>
+  <rect class="day" x="817" y="130" width="13" height="13" rx="2" fill="#30a14e" data-date="2026-06-26" data-count="2"/>
   <rect class="day" x="832" y="40" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-27" data-count="0"/>
   <rect class="day" x="832" y="55" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-06-28" data-count="0"/>
 </svg>
@@ -460,6 +468,16 @@
 
 | 日期 | 题目 |
 |------|------|
+| 2026-06-26 | [LC_0102_BinaryTreeLevelOrderTraversal](src/main/java/algo/y2026/M06/d26/LC_0102_BinaryTreeLevelOrderTraversal.java) |
+| 2026-06-26 | [LC_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal](src/main/java/algo/y2026/M06/d26/LC_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java) |
+| 2026-06-25 | [LC_0101_SymmetricTree](src/main/java/algo/y2026/M06/d25/LC_0101_SymmetricTree.java) |
+| 2026-06-25 | [LC_0226_InvertBinaryTree](src/main/java/algo/y2026/M06/d25/LC_0226_InvertBinaryTree.java) |
+| 2026-06-24 | [LC_0094_BinaryTreeInorderTraversal](src/main/java/algo/y2026/M06/d24/LC_0094_BinaryTreeInorderTraversal.java) |
+| 2026-06-24 | [LC_0104_MaximumDepthOfBinaryTree](src/main/java/algo/y2026/M06/d24/LC_0104_MaximumDepthOfBinaryTree.java) |
+| 2026-06-23 | [LC_0025_ReverseNodesInKGroup](src/main/java/algo/y2026/M06/d23/LC_0025_ReverseNodesInKGroup.java) |
+| 2026-06-23 | [LC_0148_SortList](src/main/java/algo/y2026/M06/d23/LC_0148_SortList.java) |
+| 2026-06-22 | [LC_0021_MergeTwoSortedLists](src/main/java/algo/y2026/M06/d22/LC_0021_MergeTwoSortedLists.java) |
+| 2026-06-22 | [LC_0023_MergeKSortedLists](src/main/java/algo/y2026/M06/d22/LC_0023_MergeKSortedLists.java) |
 | 2026-06-21 | [LC_0002_AddTwoNumbers](src/main/java/algo/y2026/M06/d21/LC_0002_AddTwoNumbers.java) |
 | 2026-06-20 | [LC_0160_IntersectionOfTwoLinkedLists](src/main/java/algo/y2026/M06/d20/LC_0160_IntersectionOfTwoLinkedLists.java) |
 | 2026-06-19 | [LC_0142_LinkedListCycleII](src/main/java/algo/y2026/M06/d19/LC_0142_LinkedListCycleII.java) |
@@ -470,15 +488,5 @@
 | 2026-06-13 | [LC_0004_MedianOfTwoSortedArrays_01](src/main/java/algo/y2026/M06/d13/LC_0004_MedianOfTwoSortedArrays_01.java) |
 | 2026-06-13 | [LC_0042_TrappingRainWater_02](src/main/java/algo/y2026/M06/d13/LC_0042_TrappingRainWater_02.java) |
 | 2026-06-12 | [LC_0153_FindMinimumInRotatedSortedArray_01](src/main/java/algo/y2026/M06/d12/LC_0153_FindMinimumInRotatedSortedArray_01.java) |
-| 2026-06-12 | [LC_0239_SlidingWindowMaximum_02](src/main/java/algo/y2026/M06/d12/LC_0239_SlidingWindowMaximum_02.java) |
-| 2026-06-11 | [LC_0033_SearchInRotatedSortedArray_02](src/main/java/algo/y2026/M06/d11/LC_0033_SearchInRotatedSortedArray_02.java) |
-| 2026-06-11 | [LC_0034_FindFirstAndLastPositionOfElementInSortedArray_01](src/main/java/algo/y2026/M06/d11/LC_0034_FindFirstAndLastPositionOfElementInSortedArray_01.java) |
-| 2026-06-10 | [LC_0035_SearchInsertPosition_01](src/main/java/algo/y2026/M06/d10/LC_0035_SearchInsertPosition_01.java) |
-| 2026-06-10 | [LC_0074_SearchA2DMatrix_02](src/main/java/algo/y2026/M06/d10/LC_0074_SearchA2DMatrix_02.java) |
-| 2026-06-09 | [LC_0167_TwoSumII_01](src/main/java/algo/y2026/M06/d09/LC_0167_TwoSumII_01.java) |
-| 2026-06-09 | [LC_0209_MinimumSizeSubarraySum_02](src/main/java/algo/y2026/M06/d09/LC_0209_MinimumSizeSubarraySum_02.java) |
-| 2026-06-08 | [LC_0080_RemoveDuplicatesII](src/main/java/algo/y2026/M06/d08/LC_0080_RemoveDuplicatesII.java) |
-| 2026-06-06 | [LC_0049_GroupAnagrams](src/main/java/algo/y2026/M06/d06/LC_0049_GroupAnagrams.java) |
-| 2026-06-04 | [LC_0003_LongestSubstringWithoutRepeating_01](src/main/java/algo/y2026/M06/d04/LC_0003_LongestSubstringWithoutRepeating_01.java) |
 
 > 🚀 继续加油！

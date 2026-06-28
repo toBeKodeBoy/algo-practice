@@ -1,4 +1,504 @@
 {
+  "2026-06-26": {
+    "date": "2026-06-26",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0102",
+        "title": "二叉树的层序遍历",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0102_BinaryTreeLevelOrderTraversal.java"
+      },
+      {
+        "lcId": "LC_0105",
+        "title": "从前序与中序遍历序列构造二叉树",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java"
+      }
+    ],
+    "reviews": [
+      {
+        "lcId": "LC_0206",
+        "title": "反转链表，将单链表原地反转",
+        "round": "R4",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0142",
+        "title": "环形链表 II，返回环入口节点，无环返回 null",
+        "round": "R4",
+        "slot": "早地铁"
+      }
+    ],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0102",
+            "title": "二叉树的层序遍历",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0102_BinaryTreeLevelOrderTraversal.java"
+          },
+          {
+            "lcId": "LC_0142",
+            "title": "环形链表 II，返回环入口节点，无环返回 null",
+            "difficulty": "-",
+            "slot": "早地铁",
+            "type": "复习",
+            "round": "R4"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0105",
+            "title": "从前序与中序遍历序列构造二叉树",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java"
+          },
+          {
+            "lcId": "LC_0206",
+            "title": "反转链表，将单链表原地反转",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R4"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 2,
+    "total": 4,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1
+      }
+    }
+  },
+  "2026-06-25": {
+    "date": "2026-06-25",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0101",
+        "title": "对称二叉树",
+        "difficulty": "Easy",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0101_SymmetricTree.java"
+      },
+      {
+        "lcId": "LC_0226",
+        "title": "翻转二叉树",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0226_InvertBinaryTree.java"
+      }
+    ],
+    "reviews": [
+      {
+        "lcId": "LC_0019",
+        "title": "删除链表的倒数第 N 个结点",
+        "round": "R4",
+        "slot": "早地铁"
+      },
+      {
+        "lcId": "LC_0002",
+        "title": "两数相加，两链表表示非负整数（逆序），返回相同形式的结果链表",
+        "round": "R3",
+        "slot": "晚地铁"
+      }
+    ],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0226",
+            "title": "翻转二叉树",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0226_InvertBinaryTree.java"
+          },
+          {
+            "lcId": "LC_0019",
+            "title": "删除链表的倒数第 N 个结点",
+            "difficulty": "-",
+            "slot": "早地铁",
+            "type": "复习",
+            "round": "R4"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0101",
+            "title": "对称二叉树",
+            "difficulty": "Easy",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0101_SymmetricTree.java"
+          },
+          {
+            "lcId": "LC_0002",
+            "title": "两数相加，两链表表示非负整数（逆序），返回相同形式的结果链表",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 2,
+    "total": 4,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1
+      }
+    }
+  },
+  "2026-06-24": {
+    "date": "2026-06-24",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0094",
+        "title": "二叉树的中序遍历",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0094_BinaryTreeInorderTraversal.java"
+      },
+      {
+        "lcId": "LC_0104",
+        "title": "二叉树的最大深度",
+        "difficulty": "Easy",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0104_MaximumDepthOfBinaryTree.java"
+      }
+    ],
+    "reviews": [
+      {
+        "lcId": "LC_0056",
+        "title": "合并所有重叠的区间",
+        "round": "R5",
+        "slot": "晚地铁"
+      },
+      {
+        "lcId": "LC_0024",
+        "title": "两两交换链表中的节点，不能修改节点值",
+        "round": "R4",
+        "slot": "早地铁"
+      }
+    ],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0094",
+            "title": "二叉树的中序遍历",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0094_BinaryTreeInorderTraversal.java"
+          },
+          {
+            "lcId": "LC_0024",
+            "title": "两两交换链表中的节点，不能修改节点值",
+            "difficulty": "-",
+            "slot": "早地铁",
+            "type": "复习",
+            "round": "R4"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0104",
+            "title": "二叉树的最大深度",
+            "difficulty": "Easy",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0104_MaximumDepthOfBinaryTree.java"
+          },
+          {
+            "lcId": "LC_0056",
+            "title": "合并所有重叠的区间",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R5"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 2,
+    "total": 4,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1
+      }
+    }
+  },
+  "2026-06-23": {
+    "date": "2026-06-23",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0025",
+        "title": "K 个一组翻转链表",
+        "difficulty": "Hard",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0025_ReverseNodesInKGroup.java"
+      },
+      {
+        "lcId": "LC_0148",
+        "title": "排序链表",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0148_SortList.java"
+      }
+    ],
+    "reviews": [
+      {
+        "lcId": "LC_0092",
+        "title": "反转链表 II，反转位置 left 到 right 之间的节点",
+        "round": "R4",
+        "slot": "早地铁"
+      },
+      {
+        "lcId": "LC_0142",
+        "title": "环形链表 II，返回环入口节点，无环返回 null",
+        "round": "R3",
+        "slot": "晚地铁"
+      }
+    ],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0148",
+            "title": "排序链表",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0148_SortList.java"
+          },
+          {
+            "lcId": "LC_0092",
+            "title": "反转链表 II，反转位置 left 到 right 之间的节点",
+            "difficulty": "-",
+            "slot": "早地铁",
+            "type": "复习",
+            "round": "R4"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0025",
+            "title": "K 个一组翻转链表",
+            "difficulty": "Hard",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0025_ReverseNodesInKGroup.java"
+          },
+          {
+            "lcId": "LC_0142",
+            "title": "环形链表 II，返回环入口节点，无环返回 null",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R3"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 2,
+    "total": 4,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1
+      }
+    }
+  },
+  "2026-06-22": {
+    "date": "2026-06-22",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0021",
+        "title": "合并两个有序链表",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0021_MergeTwoSortedLists.java"
+      },
+      {
+        "lcId": "LC_0023",
+        "title": "合并 K 个升序链表",
+        "difficulty": "Hard",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0023_MergeKSortedLists.java"
+      }
+    ],
+    "reviews": [
+      {
+        "lcId": "LC_0019",
+        "title": "删除链表的倒数第 N 个结点",
+        "round": "R3",
+        "slot": "早地铁"
+      },
+      {
+        "lcId": "LC_0160",
+        "title": "相交链表，找出两链表相交的起始节点",
+        "round": "R2",
+        "slot": "晚地铁"
+      }
+    ],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0021",
+            "title": "合并两个有序链表",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0021_MergeTwoSortedLists.java"
+          },
+          {
+            "lcId": "LC_0019",
+            "title": "删除链表的倒数第 N 个结点",
+            "difficulty": "-",
+            "slot": "早地铁",
+            "type": "复习",
+            "round": "R3"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1,
+        "items": [
+          {
+            "lcId": "LC_0023",
+            "title": "合并 K 个升序链表",
+            "difficulty": "Hard",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0023_MergeKSortedLists.java"
+          },
+          {
+            "lcId": "LC_0160",
+            "title": "相交链表，找出两链表相交的起始节点",
+            "difficulty": "-",
+            "slot": "晚地铁",
+            "type": "复习",
+            "round": "R2"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 2,
+    "total": 4,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 1
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 1
+      }
+    }
+  },
   "2026-06-21": {
     "date": "2026-06-21",
     "checkedIn": true,

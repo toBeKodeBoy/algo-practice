@@ -294,14 +294,16 @@
       {
         "round": "R5",
         "due": "2026-06-17",
-        "done": null,
-        "slot": null
+        "done": "2026-06-24",
+        "slot": "晚地铁"
       },
       {
         "round": "R6",
-        "due": "2026-07-02",
+        "due": "2026-07-09",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R5",
+        "rescheduledOn": "2026-06-24"
       }
     ],
     "pitfalls": []
@@ -1109,20 +1111,24 @@
       {
         "round": "R4",
         "due": "2026-06-22",
-        "done": null,
-        "slot": null
+        "done": "2026-06-26",
+        "slot": "晚地铁"
       },
       {
         "round": "R5",
-        "due": "2026-06-30",
+        "due": "2026-07-04",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-26"
       },
       {
         "round": "R6",
-        "due": "2026-07-15",
+        "due": "2026-07-19",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-26"
       }
     ],
     "pitfalls": []
@@ -1152,20 +1158,24 @@
       {
         "round": "R4",
         "due": "2026-06-23",
-        "done": null,
-        "slot": null
+        "done": "2026-06-23",
+        "slot": "早地铁"
       },
       {
         "round": "R5",
         "due": "2026-07-01",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-23"
       },
       {
         "round": "R6",
         "due": "2026-07-16",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-23"
       }
     ],
     "pitfalls": []
@@ -1195,20 +1205,24 @@
       {
         "round": "R4",
         "due": "2026-06-24",
-        "done": null,
-        "slot": null
+        "done": "2026-06-24",
+        "slot": "早地铁"
       },
       {
         "round": "R5",
         "due": "2026-07-02",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-24"
       },
       {
         "round": "R6",
         "due": "2026-07-17",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-24"
       }
     ],
     "pitfalls": []
@@ -1232,26 +1246,32 @@
       {
         "round": "R3",
         "due": "2026-06-22",
-        "done": null,
-        "slot": null
+        "done": "2026-06-22",
+        "slot": "早地铁"
       },
       {
         "round": "R4",
         "due": "2026-06-25",
-        "done": null,
-        "slot": null
+        "done": "2026-06-25",
+        "slot": "早地铁",
+        "rescheduledFrom": "R3",
+        "rescheduledOn": "2026-06-22"
       },
       {
         "round": "R5",
         "due": "2026-07-03",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-25"
       },
       {
         "round": "R6",
         "due": "2026-07-18",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-25"
       }
     ],
     "pitfalls": []
@@ -1275,26 +1295,32 @@
       {
         "round": "R3",
         "due": "2026-06-23",
-        "done": null,
-        "slot": null
+        "done": "2026-06-23",
+        "slot": "晚地铁"
       },
       {
         "round": "R4",
         "due": "2026-06-26",
-        "done": null,
-        "slot": null
+        "done": "2026-06-26",
+        "slot": "早地铁",
+        "rescheduledFrom": "R3",
+        "rescheduledOn": "2026-06-23"
       },
       {
         "round": "R5",
         "due": "2026-07-04",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-26"
       },
       {
         "round": "R6",
         "due": "2026-07-19",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R4",
+        "rescheduledOn": "2026-06-26"
       }
     ],
     "pitfalls": []
@@ -1312,32 +1338,40 @@
       {
         "round": "R2",
         "due": "2026-06-22",
-        "done": null,
-        "slot": null
+        "done": "2026-06-22",
+        "slot": "晚地铁"
       },
       {
         "round": "R3",
         "due": "2026-06-24",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R2",
+        "rescheduledOn": "2026-06-22"
       },
       {
         "round": "R4",
         "due": "2026-06-27",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R2",
+        "rescheduledOn": "2026-06-22"
       },
       {
         "round": "R5",
         "due": "2026-07-05",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R2",
+        "rescheduledOn": "2026-06-22"
       },
       {
         "round": "R6",
         "due": "2026-07-20",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R2",
+        "rescheduledOn": "2026-06-22"
       }
     ],
     "pitfalls": []
@@ -1361,24 +1395,460 @@
       {
         "round": "R3",
         "due": "2026-06-25",
-        "done": null,
-        "slot": null
+        "done": "2026-06-25",
+        "slot": "晚地铁"
       },
       {
         "round": "R4",
         "due": "2026-06-28",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R3",
+        "rescheduledOn": "2026-06-25"
       },
       {
         "round": "R5",
         "due": "2026-07-06",
         "done": null,
-        "slot": null
+        "slot": null,
+        "rescheduledFrom": "R3",
+        "rescheduledOn": "2026-06-25"
       },
       {
         "round": "R6",
         "due": "2026-07-21",
+        "done": null,
+        "slot": null,
+        "rescheduledFrom": "R3",
+        "rescheduledOn": "2026-06-25"
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0021": {
+    "title": "合并两个有序链表",
+    "firstDone": "2026-06-22",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-23",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-24",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-29",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-22",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0023": {
+    "title": "合并 K 个升序链表",
+    "firstDone": "2026-06-22",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-23",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-24",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-29",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-22",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0025": {
+    "title": "K 个一组翻转链表",
+    "firstDone": "2026-06-23",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-24",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-25",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-30",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-23",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0148": {
+    "title": "排序链表",
+    "firstDone": "2026-06-23",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-24",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-25",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-06-30",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-23",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0094": {
+    "title": "二叉树的中序遍历",
+    "firstDone": "2026-06-24",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-25",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-28",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-09",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-24",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0104": {
+    "title": "二叉树的最大深度",
+    "firstDone": "2026-06-24",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-25",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-28",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-09",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-24",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0101": {
+    "title": "对称二叉树",
+    "firstDone": "2026-06-25",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-29",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-25",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0226": {
+    "title": "翻转二叉树",
+    "firstDone": "2026-06-25",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-26",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-29",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-25",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0102": {
+    "title": "二叉树的层序遍历",
+    "firstDone": "2026-06-26",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-28",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-30",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-26",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0105": {
+    "title": "从前序与中序遍历序列构造二叉树",
+    "firstDone": "2026-06-26",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-27",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-06-28",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-06-30",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-11",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-26",
         "done": null,
         "slot": null
       }
