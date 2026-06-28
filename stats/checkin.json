@@ -1,4 +1,359 @@
 {
+  "2026-07-03": {
+    "date": "2026-07-03",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0020",
+        "title": "有效的括号",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0020_ValidParentheses.java"
+      },
+      {
+        "lcId": "LC_0155",
+        "title": "最小栈",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0155_MinStack.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0020",
+            "title": "有效的括号",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0020_ValidParentheses.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0155",
+            "title": "最小栈",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0155_MinStack.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-07-02": {
+    "date": "2026-07-02",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0124",
+        "title": "二叉树中的最大路径和",
+        "difficulty": "Hard",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0124_BinaryTreeMaximumPathSum.java"
+      },
+      {
+        "lcId": "LC_0236",
+        "title": "二叉树的最近公共祖先",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0236_LowestCommonAncestorOfABinaryTree.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0236",
+            "title": "二叉树的最近公共祖先",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0236_LowestCommonAncestorOfABinaryTree.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0124",
+            "title": "二叉树中的最大路径和",
+            "difficulty": "Hard",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0124_BinaryTreeMaximumPathSum.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-07-01": {
+    "date": "2026-07-01",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0112",
+        "title": "路径总和",
+        "difficulty": "Easy",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0112_PathSum.java"
+      },
+      {
+        "lcId": "LC_0437",
+        "title": "路径总和 III",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0437_PathSumIII.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0112",
+            "title": "路径总和",
+            "difficulty": "Easy",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0112_PathSum.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0437",
+            "title": "路径总和 III",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0437_PathSumIII.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-30": {
+    "date": "2026-06-30",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0199",
+        "title": "二叉树的右视图",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0199_BinaryTreeRightSideView.java"
+      },
+      {
+        "lcId": "LC_0230",
+        "title": "二叉搜索树中第 K 小的元素",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0230_KthSmallestElementInABst.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0230",
+            "title": "二叉搜索树中第 K 小的元素",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0230_KthSmallestElementInABst.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0199",
+            "title": "二叉树的右视图",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0199_BinaryTreeRightSideView.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
+  "2026-06-29": {
+    "date": "2026-06-29",
+    "checkedIn": true,
+    "problems": [
+      {
+        "lcId": "LC_0098",
+        "title": "验证二叉搜索树",
+        "difficulty": "Medium",
+        "slot": "晚地铁",
+        "type": "新题",
+        "file": "LC_0098_ValidateBinarySearchTree.java"
+      },
+      {
+        "lcId": "LC_0114",
+        "title": "二叉树展开为链表",
+        "difficulty": "Medium",
+        "slot": "早地铁",
+        "type": "新题",
+        "file": "LC_0114_FlattenBinaryTreeToLinkedList.java"
+      }
+    ],
+    "reviews": [],
+    "slots": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0114",
+            "title": "二叉树展开为链表",
+            "difficulty": "Medium",
+            "slot": "早地铁",
+            "type": "新题",
+            "file": "LC_0114_FlattenBinaryTreeToLinkedList.java"
+          }
+        ]
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0,
+        "items": [
+          {
+            "lcId": "LC_0098",
+            "title": "验证二叉搜索树",
+            "difficulty": "Medium",
+            "slot": "晚地铁",
+            "type": "新题",
+            "file": "LC_0098_ValidateBinarySearchTree.java"
+          }
+        ]
+      },
+      "未标注": {
+        "新题": 0,
+        "复习": 0,
+        "items": []
+      }
+    },
+    "newCount": 2,
+    "reviewCount": 0,
+    "total": 2,
+    "summary": {
+      "早地铁": {
+        "新题": 1,
+        "复习": 0
+      },
+      "晚地铁": {
+        "新题": 1,
+        "复习": 0
+      }
+    }
+  },
   "2026-06-26": {
     "date": "2026-06-26",
     "checkedIn": true,

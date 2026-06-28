@@ -1854,5 +1854,435 @@
       }
     ],
     "pitfalls": []
+  },
+  "LC_0098": {
+    "title": "验证二叉搜索树",
+    "firstDone": "2026-06-29",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-30",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-06",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-29",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0114": {
+    "title": "二叉树展开为链表",
+    "firstDone": "2026-06-29",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-06-30",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-06",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-14",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-29",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0199": {
+    "title": "二叉树的右视图",
+    "firstDone": "2026-06-30",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-30",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0230": {
+    "title": "二叉搜索树中第 K 小的元素",
+    "firstDone": "2026-06-30",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-01",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-15",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-30",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0112": {
+    "title": "路径总和",
+    "firstDone": "2026-07-01",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-16",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-31",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0437": {
+    "title": "路径总和 III",
+    "firstDone": "2026-07-01",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-02",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-08",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-16",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-07-31",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0124": {
+    "title": "二叉树中的最大路径和",
+    "firstDone": "2026-07-02",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-06",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-09",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-08-01",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0236": {
+    "title": "二叉树的最近公共祖先",
+    "firstDone": "2026-07-02",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-03",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-06",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-09",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-17",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-08-01",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0020": {
+    "title": "有效的括号",
+    "firstDone": "2026-07-03",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-18",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-08-02",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
+  },
+  "LC_0155": {
+    "title": "最小栈",
+    "firstDone": "2026-07-03",
+    "reviews": [
+      {
+        "round": "R1",
+        "due": "2026-07-04",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R2",
+        "due": "2026-07-05",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R3",
+        "due": "2026-07-07",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R4",
+        "due": "2026-07-10",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R5",
+        "due": "2026-07-18",
+        "done": null,
+        "slot": null
+      },
+      {
+        "round": "R6",
+        "due": "2026-08-02",
+        "done": null,
+        "slot": null
+      }
+    ],
+    "pitfalls": []
   }
 }

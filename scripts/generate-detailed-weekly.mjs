@@ -503,6 +503,249 @@ private TreeNode build(int[] pre, int pL, int pR,
                        in, rootIdx + 1, iR, map);
     return root;
 }`
+    },
+    'LC_0114': {
+      title: '二叉树展开为链表',
+      example: 'root=[1,2,5,3,4,null,6] => [1,null,2,null,3,null,4,null,5,null,6]',
+      leetcode: 'https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/',
+      core: '前序 DFS：先递归展开左右子树，再将 root.right 接到 root.left 最右节点，最后 root.right = root.left; root.left = null',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Medium',
+      tags: '二叉树, DFS, 链表',
+      code: `public void flatten(TreeNode root) {
+    if (root == null) return;
+    flatten(root.left);
+    flatten(root.right);
+
+    TreeNode left = root.left;
+    TreeNode right = root.right;
+    root.left = null;
+    root.right = left;
+
+    TreeNode curr = root;
+    while (curr.right != null) curr = curr.right;
+    curr.right = right;
+}`
+    },
+    'LC_0098': {
+      title: '验证二叉搜索树',
+      example: 'root=[2,1,3] => true；root=[5,1,4,null,null,3,6] => false',
+      leetcode: 'https://leetcode.cn/problems/validate-binary-search-tree/',
+      core: '递归传上下界 (min, max)，节点值必须在开区间内；或中序遍历结果严格递增',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Medium',
+      tags: '二叉树, DFS, BST',
+      code: `public boolean isValidBST(TreeNode root) {
+    return validate(root, null, null);
+}
+
+private boolean validate(TreeNode node, Integer min, Integer max) {
+    if (node == null) return true;
+    if ((min != null && node.val <= min) || (max != null && node.val >= max)) {
+        return false;
+    }
+    return validate(node.left, min, node.val)
+        && validate(node.right, node.val, max);
+}`
+    },
+    'LC_0230': {
+      title: '二叉搜索树中第 K 小的元素',
+      example: 'root=[3,1,4,null,2], k=1 => 1',
+      leetcode: 'https://leetcode.cn/problems/kth-smallest-element-in-a-bst/',
+      core: '中序遍历 BST 得到升序序列，数到第 k 个即答案',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Medium',
+      tags: '二叉树, BST, 中序遍历',
+      code: `public int kthSmallest(TreeNode root, int k) {
+    Deque<TreeNode> stack = new ArrayDeque<>();
+    TreeNode curr = root;
+    while (curr != null || !stack.isEmpty()) {
+        while (curr != null) {
+            stack.push(curr);
+            curr = curr.left;
+        }
+        curr = stack.pop();
+        if (--k == 0) return curr.val;
+        curr = curr.right;
+    }
+    return -1;
+}`
+    },
+    'LC_0199': {
+      title: '二叉树的右视图',
+      example: 'root=[1,2,3,null,5,null,4] => [1,3,4]',
+      leetcode: 'https://leetcode.cn/problems/binary-tree-right-side-view/',
+      core: 'BFS 层序遍历，每层最后一个节点；或 DFS 先访问右子树，按深度首次记录',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Medium',
+      tags: '二叉树, BFS, DFS',
+      code: `public List<Integer> rightSideView(TreeNode root) {
+    List<Integer> res = new ArrayList<>();
+    if (root == null) return res;
+
+    Queue<TreeNode> q = new LinkedList<>();
+    q.offer(root);
+    while (!q.isEmpty()) {
+        int size = q.size();
+        for (int i = 0; i < size; i++) {
+            TreeNode node = q.poll();
+            if (node.left != null) q.offer(node.left);
+            if (node.right != null) q.offer(node.right);
+            if (i == size - 1) res.add(node.val);
+        }
+    }
+    return res;
+}`
+    },
+    'LC_0112': {
+      title: '路径总和',
+      example: 'root=[5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum=22 => true',
+      leetcode: 'https://leetcode.cn/problems/path-sum/',
+      core: 'DFS 递归，targetSum -= node.val，到叶子且剩余为 0 则命中',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Easy',
+      tags: '二叉树, DFS',
+      code: `public boolean hasPathSum(TreeNode root, int targetSum) {
+    if (root == null) return false;
+    if (root.left == null && root.right == null) {
+        return targetSum == root.val;
+    }
+    int remain = targetSum - root.val;
+    return hasPathSum(root.left, remain) || hasPathSum(root.right, remain);
+}`
+    },
+    'LC_0437': {
+      title: '路径总和 III',
+      example: 'root=[10,5,-3,3,2,null,11,3,-2,null,1], targetSum=8 => 3',
+      leetcode: 'https://leetcode.cn/problems/path-sum-iii/',
+      core: '双重 DFS + 前缀和 HashMap：以每个节点为起点向下枚举，用 prefixSum 计数',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Medium',
+      tags: '二叉树, DFS, 前缀和, 哈希表',
+      code: `public int pathSum(TreeNode root, int targetSum) {
+    if (root == null) return 0;
+    Map<Long, Integer> prefix = new HashMap<>();
+    prefix.put(0L, 1);
+    return dfs(root, 0L, targetSum, prefix)
+         + pathSum(root.left, targetSum)
+         + pathSum(root.right, targetSum);
+}
+
+private int dfs(TreeNode node, long curr, int target,
+                Map<Long, Integer> prefix) {
+    if (node == null) return 0;
+    curr += node.val;
+    int count = prefix.getOrDefault(curr - target, 0);
+    prefix.merge(curr, 1, Integer::sum);
+    count += dfs(node.left, curr, target, prefix);
+    count += dfs(node.right, curr, target, prefix);
+    prefix.merge(curr, -1, Integer::sum);
+    return count;
+}`
+    },
+    'LC_0236': {
+      title: '二叉树的最近公共祖先',
+      example: 'root=[3,5,1,6,2,0,8,null,null,7,4], p=5, q=1 => 3',
+      leetcode: 'https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/',
+      core: '后序 DFS：左右子树各返回找到的节点；若当前节点是 p/q 或左右各找到一个，则当前为 LCA',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Medium',
+      tags: '二叉树, DFS',
+      code: `public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    if (root == null || root == p || root == q) return root;
+    TreeNode left = lowestCommonAncestor(root.left, p, q);
+    TreeNode right = lowestCommonAncestor(root.right, p, q);
+    if (left != null && right != null) return root;
+    return left != null ? left : right;
+}`
+    },
+    'LC_0124': {
+      title: '二叉树中的最大路径和',
+      example: 'root=[-10,9,20,null,null,15,7] => 42',
+      leetcode: 'https://leetcode.cn/problems/binary-tree-maximum-path-sum/',
+      core: '后序 DFS：返回以当前节点为端点的最大单边贡献，用 left+val+right 更新全局最大值',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Hard',
+      tags: '二叉树, DFS, 分治',
+      code: `private int maxSum = Integer.MIN_VALUE;
+
+public int maxPathSum(TreeNode root) {
+    maxGain(root);
+    return maxSum;
+}
+
+private int maxGain(TreeNode node) {
+    if (node == null) return 0;
+    int left = Math.max(maxGain(node.left), 0);
+    int right = Math.max(maxGain(node.right), 0);
+    maxSum = Math.max(maxSum, node.val + left + right);
+    return node.val + Math.max(left, right);
+}`
+    },
+    'LC_0020': {
+      title: '有效的括号',
+      example: 's="()[]{}" => true；s="(]" => false',
+      leetcode: 'https://leetcode.cn/problems/valid-parentheses/',
+      core: '栈：左括号入栈，右括号与栈顶匹配弹出；最终栈空则有效',
+      timeComplexity: 'O(n)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Easy',
+      tags: '栈, 字符串',
+      code: `public boolean isValid(String s) {
+    Deque<Character> stack = new ArrayDeque<>();
+    for (char c : s.toCharArray()) {
+        if (c == '(' || c == '[' || c == '{') {
+            stack.push(c);
+        } else {
+            if (stack.isEmpty()) return false;
+            char top = stack.pop();
+            if ((c == ')' && top != '(')
+                || (c == ']' && top != '[')
+                || (c == '}' && top != '{')) {
+                return false;
+            }
+        }
+    }
+    return stack.isEmpty();
+}`
+    },
+    'LC_0155': {
+      title: '最小栈',
+      example: 'push(-2), push(0), push(-3), getMin()=>-3, pop(), top()=>0, getMin()=>-2',
+      leetcode: 'https://leetcode.cn/problems/min-stack/',
+      core: '辅助栈同步记录当前最小值；push 时若 val <= min 则同步入 minStack',
+      timeComplexity: 'O(1)',
+      spaceComplexity: 'O(n)',
+      difficulty: 'Medium',
+      tags: '栈, 设计',
+      code: `class MinStack {
+    private final Deque<Integer> stack = new ArrayDeque<>();
+    private final Deque<Integer> minStack = new ArrayDeque<>();
+
+    public void push(int val) {
+        stack.push(val);
+        if (minStack.isEmpty() || val <= minStack.peek()) {
+            minStack.push(val);
+        }
+    }
+
+    public void pop() {
+        if (stack.pop().equals(minStack.peek())) {
+            minStack.pop();
+        }
+    }
+
+    public int top() { return stack.peek(); }
+    public int getMin() { return minStack.peek(); }
+}`
     }
   };
 }
@@ -511,12 +754,9 @@ private TreeNode build(int[] pre, int pL, int pR,
 // Review-problem content (from existing source)
 // ──────────────────────────────────────────────
 
-function buildReviewContent(sourceMap) {
-  const need = ['LC_0019', 'LC_0160', 'LC_0092', 'LC_0142', 'LC_0024',
-                'LC_0056', 'LC_0002', 'LC_0206'];
-
+function buildReviewContent(sourceMap, lcIds) {
   const result = {};
-  for (const lcId of need) {
+  for (const lcId of lcIds) {
     const entry = sourceMap.get(lcId);
     if (entry) {
       result[lcId] = entry;
@@ -529,44 +769,110 @@ function buildReviewContent(sourceMap) {
 // Weekly schedule definition
 // ──────────────────────────────────────────────
 
+const WEEK_META = {
+  '2026-06-22': {
+    phaseSummary: 'P2 链表收尾 → P3 二叉树起步',
+    phaseGroups: {
+      'P3 二叉树入门': ['LC_0094', 'LC_0104', 'LC_0226', 'LC_0101'],
+      'P2 链表收尾': ['LC_0023', 'LC_0025'],
+      'P3 二叉树': ['LC_0148', 'LC_0102', 'LC_0105'],
+    },
+    newByDay: [
+      ['LC_0021', 'LC_0023'],
+      ['LC_0148', 'LC_0025'],
+      ['LC_0094', 'LC_0104'],
+      ['LC_0226', 'LC_0101'],
+      ['LC_0102', 'LC_0105'],
+    ],
+    reviewByDay: [
+      [
+        { lcId: 'LC_0019', round: 'R3', due: '2026-06-22' },
+        { lcId: 'LC_0160', round: 'R2', due: '2026-06-22' },
+      ],
+      [
+        { lcId: 'LC_0092', round: 'R4', due: '2026-06-23' },
+        { lcId: 'LC_0142', round: 'R3', due: '2026-06-23' },
+      ],
+      [
+        { lcId: 'LC_0024', round: 'R4', due: '2026-06-24' },
+        { lcId: 'LC_0056', round: 'R5', due: '2026-06-24' },
+      ],
+      [
+        { lcId: 'LC_0019', round: 'R4', due: '2026-06-25' },
+        { lcId: 'LC_0002', round: 'R3', due: '2026-06-25' },
+      ],
+      [
+        { lcId: 'LC_0142', round: 'R4', due: '2026-06-26' },
+        { lcId: 'LC_0206', round: 'R4', due: '2026-06-19' },
+      ],
+    ],
+  },
+  '2026-06-29': {
+    phaseSummary: 'P3 二叉树深入 → P4 栈队列起步',
+    phaseGroups: {
+      'P3 二叉树（BST/路径/LCA）': ['LC_0114', 'LC_0098', 'LC_0230', 'LC_0199', 'LC_0112', 'LC_0437', 'LC_0236', 'LC_0124'],
+      'P4 栈队列起步': ['LC_0020', 'LC_0155'],
+    },
+    newByDay: [
+      ['LC_0114', 'LC_0098'],
+      ['LC_0230', 'LC_0199'],
+      ['LC_0112', 'LC_0437'],
+      ['LC_0236', 'LC_0124'],
+      ['LC_0020', 'LC_0155'],
+    ],
+    reviewByDay: [
+      [
+        { lcId: 'LC_0021', round: 'R4', due: '2026-06-29' },
+        { lcId: 'LC_0023', round: 'R4', due: '2026-06-29' },
+      ],
+      [
+        { lcId: 'LC_0025', round: 'R4', due: '2026-06-30' },
+        { lcId: 'LC_0148', round: 'R4', due: '2026-06-30' },
+      ],
+      [
+        { lcId: 'LC_0094', round: 'R4', due: '2026-07-01' },
+        { lcId: 'LC_0104', round: 'R4', due: '2026-07-01' },
+      ],
+      [
+        { lcId: 'LC_0101', round: 'R4', due: '2026-07-02' },
+        { lcId: 'LC_0226', round: 'R4', due: '2026-07-02' },
+      ],
+      [
+        { lcId: 'LC_0102', round: 'R4', due: '2026-07-03' },
+        { lcId: 'LC_0105', round: 'R4', due: '2026-07-03' },
+      ],
+    ],
+  },
+};
+
 function buildWeeklyPlan(mondayStr) {
+  const meta = WEEK_META[mondayStr];
+  if (!meta) {
+    throw new Error(`No weekly plan configured for monday ${mondayStr}`);
+  }
+
   const weekdays = [0, 1, 2, 3, 4].map(i => addDays(mondayStr, i));
   const friday = weekdays[4];
 
-  // New problems schedule
-  const newSchedule = [
-    { date: weekdays[0], problems: ['LC_0021', 'LC_0023'] },
-    { date: weekdays[1], problems: ['LC_0148', 'LC_0025'] },
-    { date: weekdays[2], problems: ['LC_0094', 'LC_0104'] },
-    { date: weekdays[3], problems: ['LC_0226', 'LC_0101'] },
-    { date: weekdays[4], problems: ['LC_0102', 'LC_0105'] },
-  ];
+  const newSchedule = meta.newByDay.map((problems, i) => ({
+    date: weekdays[i],
+    problems,
+  }));
 
-  // Review schedule (2 per day, from due+overdue)
-  const reviewSchedule = [
-    { date: weekdays[0], problems: [
-      { lcId: 'LC_0019', round: 'R3', due: '2026-06-22' },
-      { lcId: 'LC_0160', round: 'R2', due: '2026-06-22' },
-    ]},
-    { date: weekdays[1], problems: [
-      { lcId: 'LC_0092', round: 'R4', due: '2026-06-23' },
-      { lcId: 'LC_0142', round: 'R3', due: '2026-06-23' },
-    ]},
-    { date: weekdays[2], problems: [
-      { lcId: 'LC_0024', round: 'R4', due: '2026-06-24' },
-      { lcId: 'LC_0056', round: 'R5', due: '2026-06-24' },
-    ]},
-    { date: weekdays[3], problems: [
-      { lcId: 'LC_0019', round: 'R4', due: '2026-06-25' },
-      { lcId: 'LC_0002', round: 'R3', due: '2026-06-25' },
-    ]},
-    { date: weekdays[4], problems: [
-      { lcId: 'LC_0142', round: 'R4', due: '2026-06-26' },
-      { lcId: 'LC_0206', round: 'R4', due: '2026-06-19' },
-    ]},
-  ];
+  const reviewSchedule = meta.reviewByDay.map((problems, i) => ({
+    date: weekdays[i],
+    problems,
+  }));
 
-  return { monday: mondayStr, friday, weekdays, newSchedule, reviewSchedule };
+  return {
+    monday: mondayStr,
+    friday,
+    weekdays,
+    newSchedule,
+    reviewSchedule,
+    phaseSummary: meta.phaseSummary,
+    phaseGroups: meta.phaseGroups,
+  };
 }
 
 // ──────────────────────────────────────────────
@@ -698,17 +1004,6 @@ function buildDetailedMarkdown(plan, newDefs, reviewContent, schedule) {
   // 统计汇总
   const allNewLcIds = newSchedule.flatMap(d => d.problems);
   const allReview = reviewSchedule.flatMap(d => d.problems);
-  const reviewLcIds = [...new Set(allReview.map(r => r.lcId))];
-
-  // 按题型分类统计
-  const newByPhase = {};
-  for (const lcId of allNewLcIds) {
-    const def = newDefs[lcId];
-    const phase = def && def.difficulty === 'Easy' ? 'P3 二叉树入门'
-                : (lcId.startsWith('LC_002') ? 'P2 链表收尾' : 'P3 二叉树');
-    if (!newByPhase[phase]) newByPhase[phase] = [];
-    newByPhase[phase].push(lcId);
-  }
 
   md += `### 进度一览\n\n`;
   md += `| 维度 | 数值 |\n`;
@@ -717,11 +1012,12 @@ function buildDetailedMarkdown(plan, newDefs, reviewContent, schedule) {
   md += `| 📖 新题总量 | ${allNewLcIds.length} 道 |\n`;
   md += `| 🔄 复习总量 | ${allReview.length} 道 |\n`;
   md += `| 🎯 每日节奏 | 2 新 + 2 复 |\n`;
-  md += `| 📚 本周涉及题型 | P2 链表收尾 → P3 二叉树起步 |\n`;
+  md += `| 📚 本周涉及题型 | ${plan.phaseSummary || '速刷 Hot 100'} |\n`;
   md += `\n`;
 
   md += `### 本周围绕题型\n\n`;
-  for (const [phase, lcs] of Object.entries(newByPhase)) {
+  const groups = plan.phaseGroups || {};
+  for (const [phase, lcs] of Object.entries(groups)) {
     md += `- **${phase}**：${lcs.join('、')}\n`;
   }
   md += `\n`;
@@ -794,7 +1090,7 @@ async function renderPdf(html, outPdfPath) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const monday = args.monday || '2026-06-22';
+  const monday = args.monday || '2026-06-29';
 
   console.log(`📅 Generating detailed weekly plan for ${monday} ~ ${addDays(monday, 4)}`);
 
@@ -812,7 +1108,8 @@ async function main() {
 
   // 4. Build content
   const newDefs = defineNewProblems();
-  const reviewContent = buildReviewContent(sourceMap);
+  const reviewLcIds = [...new Set(plan.reviewSchedule.flatMap(d => d.problems.map(p => p.lcId)))];
+  const reviewContent = buildReviewContent(sourceMap, reviewLcIds);
 
   console.log(`   New problems: ${Object.keys(newDefs).length}`);
   console.log(`   Review problems with source: ${Object.keys(reviewContent).length}`);
@@ -824,7 +1121,7 @@ async function main() {
 
   // 6. Output
   mkdirSync(OUT_DIR, { recursive: true });
-  const outBase = `2026-06-22-周计划算法`;
+  const outBase = `${monday}-周计划算法`;
   const outMdPath = join(OUT_DIR, `${outBase}.md`);
   const outPdfPath = join(OUT_DIR, `${outBase}.pdf`);
 
