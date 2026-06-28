@@ -3,9 +3,9 @@ package algo.y2026.M06.d09;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class LC_0167_TwoSumIITest {
+class LC_0167_TwoSumII_01Test {
 
-    private final LC_0167_TwoSumII solution = new LC_0167_TwoSumII();
+    private final LC_0167_TwoSumII_01 solution = new LC_0167_TwoSumII_01();
 
     @Test
     void testExample1() {

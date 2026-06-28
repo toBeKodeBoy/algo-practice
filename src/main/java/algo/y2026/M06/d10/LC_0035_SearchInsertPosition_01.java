@@ -18,7 +18,7 @@ package algo.y2026.M06.d10;
 // 时段 早地铁
 // 类型 新题
 
-public class LC_0035_SearchInsertPosition {
+public class LC_0035_SearchInsertPosition_01 {
 
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) return 0;
@@ -39,7 +39,7 @@ public class LC_0035_SearchInsertPosition {
     }
 
     public static void main(String[] args) {
-        LC_0035_SearchInsertPosition s = new LC_0035_SearchInsertPosition();
+        LC_0035_SearchInsertPosition_01 s = new LC_0035_SearchInsertPosition_01();
 
         System.out.println("Test 1: " + s.searchInsert(new int[]{1, 3, 5, 6}, 5));
         System.out.println("Test 2: " + s.searchInsert(new int[]{1, 3, 5, 6}, 2));

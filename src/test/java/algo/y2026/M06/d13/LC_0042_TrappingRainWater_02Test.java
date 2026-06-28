@@ -3,9 +3,9 @@ package algo.y2026.M06.d13;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0042_TrappingRainWaterTest {
+class LC_0042_TrappingRainWater_02Test {
 
-    private final LC_0042_TrappingRainWater solution = new LC_0042_TrappingRainWater();
+    private final LC_0042_TrappingRainWater_02 solution = new LC_0042_TrappingRainWater_02();
 
     @Test
     void testExample1() {

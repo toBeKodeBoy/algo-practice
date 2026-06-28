@@ -3,9 +3,9 @@ package algo.y2026.M06.d12;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0153_FindMinimumInRotatedSortedArrayTest {
+class LC_0153_FindMinimumInRotatedSortedArray_01Test {
 
-    private final LC_0153_FindMinimumInRotatedSortedArray solution = new LC_0153_FindMinimumInRotatedSortedArray();
+    private final LC_0153_FindMinimumInRotatedSortedArray_01 solution = new LC_0153_FindMinimumInRotatedSortedArray_01();
 
     @Test
     void testExample1() {

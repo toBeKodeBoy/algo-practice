@@ -10,7 +10,7 @@ package algo.y2026.M06.d13;
 // 时段 早地铁
 // 类型 新题
 
-public class LC_0004_MedianOfTwoSortedArrays {
+public class LC_0004_MedianOfTwoSortedArrays_01 {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (nums1 == null || nums2 == null) return 0.0;
@@ -49,7 +49,7 @@ public class LC_0004_MedianOfTwoSortedArrays {
     }
 
     public static void main(String[] args) {
-        LC_0004_MedianOfTwoSortedArrays s = new LC_0004_MedianOfTwoSortedArrays();
+        LC_0004_MedianOfTwoSortedArrays_01 s = new LC_0004_MedianOfTwoSortedArrays_01();
 
         System.out.println("Test 1: " + s.findMedianSortedArrays(new int[]{1, 3}, new int[]{2}));
         System.out.println("Test 2: " + s.findMedianSortedArrays(new int[]{1, 2}, new int[]{3, 4}));

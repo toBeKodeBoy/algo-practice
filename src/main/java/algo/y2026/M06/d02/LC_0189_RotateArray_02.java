@@ -11,7 +11,7 @@ package algo.y2026.M06.d02;
 // 时段 晚地铁
 // 类型 新题
 
-public class LC_0189_RotateArray {
+public class LC_0189_RotateArray_02 {
 
     public void rotate(int[] nums, int k) {
         if (nums == null || nums.length == 0) return;

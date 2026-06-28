@@ -13,7 +13,7 @@ import java.util.ArrayDeque;
 // 时段 晚地铁
 // 类型 新题
 
-public class LC_0239_SlidingWindowMaximum {
+public class LC_0239_SlidingWindowMaximum_02 {
 
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || nums.length == 0 || k <= 0) return new int[0];
@@ -41,7 +41,7 @@ public class LC_0239_SlidingWindowMaximum {
     }
 
     public static void main(String[] args) {
-        LC_0239_SlidingWindowMaximum s = new LC_0239_SlidingWindowMaximum();
+        LC_0239_SlidingWindowMaximum_02 s = new LC_0239_SlidingWindowMaximum_02();
 
         int[] r1 = s.maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
         System.out.print("Test 1: ");

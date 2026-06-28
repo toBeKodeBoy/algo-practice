@@ -10,7 +10,7 @@ package algo.y2026.M06.d09;
 // 时段 晚地铁
 // 类型 新题
 
-public class LC_0209_MinimumSizeSubarraySum {
+public class LC_0209_MinimumSizeSubarraySum_02 {
 
     public int minSubArrayLen(int target, int[] nums) {
         if (nums == null || nums.length == 0) return 0;
@@ -30,7 +30,7 @@ public class LC_0209_MinimumSizeSubarraySum {
     }
 
     public static void main(String[] args) {
-        LC_0209_MinimumSizeSubarraySum s = new LC_0209_MinimumSizeSubarraySum();
+        LC_0209_MinimumSizeSubarraySum_02 s = new LC_0209_MinimumSizeSubarraySum_02();
 
         System.out.println("Test 1: " + s.minSubArrayLen(7, new int[]{2, 3, 1, 2, 4, 3}));
         System.out.println("Test 2: " + s.minSubArrayLen(4, new int[]{1, 4, 4}));

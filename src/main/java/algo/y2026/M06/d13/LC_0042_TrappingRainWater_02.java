@@ -10,7 +10,7 @@ package algo.y2026.M06.d13;
 // 时段 晚地铁
 // 类型 新题
 
-public class LC_0042_TrappingRainWater {
+public class LC_0042_TrappingRainWater_02 {
 
     public int trap(int[] height) {
         if (height == null || height.length < 3) return 0;
@@ -40,7 +40,7 @@ public class LC_0042_TrappingRainWater {
     }
 
     public static void main(String[] args) {
-        LC_0042_TrappingRainWater s = new LC_0042_TrappingRainWater();
+        LC_0042_TrappingRainWater_02 s = new LC_0042_TrappingRainWater_02();
 
         System.out.println("Test 1: " + s.trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
         System.out.println("Test 2: " + s.trap(new int[]{4, 2, 0, 3, 2, 5}));

@@ -3,9 +3,9 @@ package algo.y2026.M06.d03;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class LC_0238_ProductExceptSelfTest {
+class LC_0238_ProductExceptSelf_01Test {
 
-    private final LC_0238_ProductExceptSelf solution = new LC_0238_ProductExceptSelf();
+    private final LC_0238_ProductExceptSelf_01 solution = new LC_0238_ProductExceptSelf_01();
 
     @Test
     void testExample() {

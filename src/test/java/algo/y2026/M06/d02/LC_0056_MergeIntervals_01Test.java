@@ -3,9 +3,9 @@ package algo.y2026.M06.d02;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class LC_0056_MergeIntervalsTest {
+class LC_0056_MergeIntervals_01Test {
 
-    private final LC_0056_MergeIntervals solution = new LC_0056_MergeIntervals();
+    private final LC_0056_MergeIntervals_01 solution = new LC_0056_MergeIntervals_01();
 
     @Test
     void testExample() {

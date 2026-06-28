@@ -3,9 +3,9 @@ package algo.y2026.M06.d04;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0003_LongestSubstringWithoutRepeatingTest {
+class LC_0003_LongestSubstringWithoutRepeating_01Test {
 
-    private final LC_0003_LongestSubstringWithoutRepeating solution = new LC_0003_LongestSubstringWithoutRepeating();
+    private final LC_0003_LongestSubstringWithoutRepeating_01 solution = new LC_0003_LongestSubstringWithoutRepeating_01();
 
     @Test
     void testExample1() {

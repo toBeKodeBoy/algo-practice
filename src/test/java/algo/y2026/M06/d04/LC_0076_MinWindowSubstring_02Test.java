@@ -3,9 +3,9 @@ package algo.y2026.M06.d04;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0076_MinWindowSubstringTest {
+class LC_0076_MinWindowSubstring_02Test {
 
-    private final LC_0076_MinWindowSubstring solution = new LC_0076_MinWindowSubstring();
+    private final LC_0076_MinWindowSubstring_02 solution = new LC_0076_MinWindowSubstring_02();
 
     @Test
     void testExample() {

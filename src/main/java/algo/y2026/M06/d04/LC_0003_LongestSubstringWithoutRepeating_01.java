@@ -14,7 +14,7 @@ package algo.y2026.M06.d04;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LC_0003_LongestSubstringWithoutRepeating {
+public class LC_0003_LongestSubstringWithoutRepeating_01 {
 
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.isEmpty()) return 0;

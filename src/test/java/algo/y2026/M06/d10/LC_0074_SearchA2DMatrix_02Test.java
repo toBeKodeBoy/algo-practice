@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class LC_0074_SearchA2DMatrixTest {
+class LC_0074_SearchA2DMatrix_02Test {
 
-    private final LC_0074_SearchA2DMatrix solution = new LC_0074_SearchA2DMatrix();
+    private final LC_0074_SearchA2DMatrix_02 solution = new LC_0074_SearchA2DMatrix_02();
 
     private final int[][] matrix = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};
 

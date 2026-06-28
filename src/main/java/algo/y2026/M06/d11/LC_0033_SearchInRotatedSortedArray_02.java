@@ -10,7 +10,7 @@ package algo.y2026.M06.d11;
 // 时段 晚地铁
 // 类型 新题
 
-public class LC_0033_SearchInRotatedSortedArray {
+public class LC_0033_SearchInRotatedSortedArray_02 {
 
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) return -1;
@@ -40,7 +40,7 @@ public class LC_0033_SearchInRotatedSortedArray {
     }
 
     public static void main(String[] args) {
-        LC_0033_SearchInRotatedSortedArray s = new LC_0033_SearchInRotatedSortedArray();
+        LC_0033_SearchInRotatedSortedArray_02 s = new LC_0033_SearchInRotatedSortedArray_02();
 
         System.out.println("Test 1: " + s.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 0));
         System.out.println("Test 2: " + s.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 3));

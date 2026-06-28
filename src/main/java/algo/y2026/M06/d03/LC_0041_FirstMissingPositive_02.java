@@ -24,7 +24,7 @@ package algo.y2026.M06.d03;
 // 时段 晚地铁
 // 类型 复习
 
-public class LC_0041_FirstMissingPositive {
+public class LC_0041_FirstMissingPositive_02 {
 
     public int firstMissingPositive(int[] nums) {
         if (nums == null || nums.length == 0) return 1;
@@ -67,7 +67,7 @@ public class LC_0041_FirstMissingPositive {
     }
 
     public static void main(String[] args) {
-        LC_0041_FirstMissingPositive s = new LC_0041_FirstMissingPositive();
+        LC_0041_FirstMissingPositive_02 s = new LC_0041_FirstMissingPositive_02();
 
         System.out.println("Test 1: " + s.firstMissingPositive(new int[]{1, 2, 0}));
         System.out.println("Test 2: " + s.firstMissingPositive(new int[]{3, 4, -1, 1}));

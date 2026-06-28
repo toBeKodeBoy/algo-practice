@@ -17,7 +17,7 @@ package algo.y2026.M06.d04;
 // 时段 晚地铁
 // 类型 新题
 
-public class LC_0026_RemoveDuplicates {
+public class LC_0026_RemoveDuplicates_03 {
     public int removeDuplicates(int[] nums){
         // 边界判断
         if(nums == null || nums.length == 0) return 0 ;
@@ -36,7 +36,7 @@ public class LC_0026_RemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        LC_0026_RemoveDuplicates solution = new LC_0026_RemoveDuplicates();
+        LC_0026_RemoveDuplicates_03 solution = new LC_0026_RemoveDuplicates_03();
 
         int[] nums1 = {1, 1, 2};
         int len1 = solution.removeDuplicates(nums1);

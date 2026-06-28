@@ -3,9 +3,9 @@ package algo.y2026.M06.d13;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0004_MedianOfTwoSortedArraysTest {
+class LC_0004_MedianOfTwoSortedArrays_01Test {
 
-    private final LC_0004_MedianOfTwoSortedArrays solution = new LC_0004_MedianOfTwoSortedArrays();
+    private final LC_0004_MedianOfTwoSortedArrays_01 solution = new LC_0004_MedianOfTwoSortedArrays_01();
 
     @Test
     void testExample1() {

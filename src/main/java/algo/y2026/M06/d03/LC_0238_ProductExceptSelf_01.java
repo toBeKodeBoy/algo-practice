@@ -27,7 +27,7 @@ package algo.y2026.M06.d03;
 // 时段 早地铁
 // 类型 复习
 
-public class LC_0238_ProductExceptSelf {
+public class LC_0238_ProductExceptSelf_01 {
 
     public int[] productExceptSelf(int[] nums) {
         if (nums == null || nums.length == 0) return new int[0];

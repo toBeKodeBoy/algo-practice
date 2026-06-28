@@ -10,7 +10,7 @@ package algo.y2026.M06.d09;
 // 时段 早地铁
 // 类型 新题
 
-public class LC_0167_TwoSumII {
+public class LC_0167_TwoSumII_01 {
 
     public int[] twoSum(int[] numbers, int target) {
         if (numbers == null || numbers.length < 2) return new int[]{-1, -1};
@@ -30,7 +30,7 @@ public class LC_0167_TwoSumII {
     }
 
     public static void main(String[] args) {
-        LC_0167_TwoSumII s = new LC_0167_TwoSumII();
+        LC_0167_TwoSumII_01 s = new LC_0167_TwoSumII_01();
 
         int[] r1 = s.twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println("Test 1: [" + r1[0] + "," + r1[1] + "]");

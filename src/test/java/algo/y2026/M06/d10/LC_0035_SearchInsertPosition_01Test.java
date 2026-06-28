@@ -3,9 +3,9 @@ package algo.y2026.M06.d10;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0035_SearchInsertPositionTest {
+class LC_0035_SearchInsertPosition_01Test {
 
-    private final LC_0035_SearchInsertPosition solution = new LC_0035_SearchInsertPosition();
+    private final LC_0035_SearchInsertPosition_01 solution = new LC_0035_SearchInsertPosition_01();
 
     @Test
     void testExample1() {

@@ -3,9 +3,9 @@ package algo.y2026.M06.d09;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0209_MinimumSizeSubarraySumTest {
+class LC_0209_MinimumSizeSubarraySum_02Test {
 
-    private final LC_0209_MinimumSizeSubarraySum solution = new LC_0209_MinimumSizeSubarraySum();
+    private final LC_0209_MinimumSizeSubarraySum_02 solution = new LC_0209_MinimumSizeSubarraySum_02();
 
     @Test
     void testExample1() {

@@ -10,7 +10,7 @@ package algo.y2026.M06.d04;
 // 复盘 2026-06-04 初刷 | 易错 滑动窗口
 // 时段 早地铁
 // 类型 新题
-public class LC_0076_MinWindowSubstring {
+public class LC_0076_MinWindowSubstring_02 {
     public String minWindow(String s, String t) {
         // 任一为空或 s 长度不足 t，直接返回 ""
         if (s == null || t == null || s.length() < t.length()) return "";

@@ -10,7 +10,7 @@ package algo.y2026.M06.d12;
 // 时段 早地铁
 // 类型 新题
 
-public class LC_0153_FindMinimumInRotatedSortedArray {
+public class LC_0153_FindMinimumInRotatedSortedArray_01 {
 
     public int findMin(int[] nums) {
         if (nums == null || nums.length == 0) return -1;
@@ -30,7 +30,7 @@ public class LC_0153_FindMinimumInRotatedSortedArray {
     }
 
     public static void main(String[] args) {
-        LC_0153_FindMinimumInRotatedSortedArray s = new LC_0153_FindMinimumInRotatedSortedArray();
+        LC_0153_FindMinimumInRotatedSortedArray_01 s = new LC_0153_FindMinimumInRotatedSortedArray_01();
 
         System.out.println("Test 1: " + s.findMin(new int[]{3, 4, 5, 1, 2}));
         System.out.println("Test 2: " + s.findMin(new int[]{4, 5, 6, 7, 0, 1, 2}));

@@ -3,9 +3,9 @@ package algo.y2026.M06.d11;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LC_0033_SearchInRotatedSortedArrayTest {
+class LC_0033_SearchInRotatedSortedArray_02Test {
 
-    private final LC_0033_SearchInRotatedSortedArray solution = new LC_0033_SearchInRotatedSortedArray();
+    private final LC_0033_SearchInRotatedSortedArray_02 solution = new LC_0033_SearchInRotatedSortedArray_02();
 
     @Test
     void testExample1() {

@@ -3,9 +3,9 @@ package algo.y2026.M06.d12;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class LC_0239_SlidingWindowMaximumTest {
+class LC_0239_SlidingWindowMaximum_02Test {
 
-    private final LC_0239_SlidingWindowMaximum solution = new LC_0239_SlidingWindowMaximum();
+    private final LC_0239_SlidingWindowMaximum_02 solution = new LC_0239_SlidingWindowMaximum_02();
 
     @Test
     void testExample1() {

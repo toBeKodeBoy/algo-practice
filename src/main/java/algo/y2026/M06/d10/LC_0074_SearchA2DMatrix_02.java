@@ -20,7 +20,7 @@ package algo.y2026.M06.d10;
 // 时段 早地铁
 // 类型 新题
 
-public class LC_0074_SearchA2DMatrix {
+public class LC_0074_SearchA2DMatrix_02 {
 
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return false;
@@ -46,7 +46,7 @@ public class LC_0074_SearchA2DMatrix {
     }
 
     public static void main(String[] args) {
-        LC_0074_SearchA2DMatrix s = new LC_0074_SearchA2DMatrix();
+        LC_0074_SearchA2DMatrix_02 s = new LC_0074_SearchA2DMatrix_02();
 
         int[][] m1 = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};
         System.out.println("Test 1: " + s.searchMatrix(m1, 3));

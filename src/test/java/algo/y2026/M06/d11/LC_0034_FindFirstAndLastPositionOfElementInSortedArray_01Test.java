@@ -3,9 +3,9 @@ package algo.y2026.M06.d11;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class LC_0034_FindFirstAndLastPositionOfElementInSortedArrayTest {
+class LC_0034_FindFirstAndLastPositionOfElementInSortedArray_01Test {
 
-    private final LC_0034_FindFirstAndLastPositionOfElementInSortedArray solution = new LC_0034_FindFirstAndLastPositionOfElementInSortedArray();
+    private final LC_0034_FindFirstAndLastPositionOfElementInSortedArray_01 solution = new LC_0034_FindFirstAndLastPositionOfElementInSortedArray_01();
 
     @Test
     void testExample1() {

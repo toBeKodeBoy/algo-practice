@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LC_0056_MergeIntervals {
+public class LC_0056_MergeIntervals_01 {
 
     public int[][] merge(int[][] intervals) {
         if (intervals == null || intervals.length == 0) return new int[0][];
