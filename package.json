@@ -1,0 +1,13 @@
+{
+  "name": "algo-practice-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "weekly": "node scripts/weekly-review.mjs"
+  },
+  "dependencies": {
+    "marked": "^16.2.1",
+    "playwright": "^1.54.2"
+  }
+}
+

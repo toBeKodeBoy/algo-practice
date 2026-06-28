@@ -657,11 +657,9 @@ function main() {
     writeFileSync(mdPath, md, 'utf-8');
     console.log(`   Saved ${mdPath}`);
 
-    console.log('📝 Updating main README...');
-    updateMainReadme(solutions);
-
     const progress = buildProgress(solutions);
     if (progress) {
+        console.log('📝 Updating main README progress...');
         updateProgressInReadme(generateProgressMarkdown(progress));
     }
 

@@ -13,4 +13,5 @@ bin/
 *.log
 .DS_Store
 Thumbs.db
+nul
 node_modules/
