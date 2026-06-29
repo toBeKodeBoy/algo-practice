@@ -1,6 +1,7 @@
 package algo.util;
 
 import java.util.ArrayDeque;
+import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
@@ -52,7 +53,7 @@ public class TreeNode {
             return new Integer[0];
         }
         List<Integer> values = new ArrayList<>();
-        Deque<TreeNode> queue = new ArrayDeque<>();
+        Deque<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
