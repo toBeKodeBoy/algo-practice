@@ -6,6 +6,55 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * TreeNode
+ * 节点本质是引用传递，= 只修改指针指向，不会修改原对象。
+ * 场景1： p=p.right [指针 p 移动到自己的右孩子节点，仅改变 p 自身指向，不改动树结构。]
+ *     p
+ *    / \
+ *   A   B(p.right)
+ * 适用于：遍历二叉树、循环找右子树、迭代中序 / 先序遍历。
+ *
+ * 场景2：p.left=p.right [把 p 的左指针，指向 p 原本的右孩子;原 p.left 子树会丢失（无引用，GC 回收），直接修改树结构。]
+ * 原图
+ *     p
+ *    / \
+ *   L   R
+ * 执行后
+ *     p
+ *    /
+ *   R
+ * (L 子树被丢弃)
+ *
+ * 场景3：p.left=q.left [让 p 的左孩子，直接复用 q 的左子树（共享同一棵子树）,L 子树现在同时属于 p.left 和 q.left，修改一边两边都会变]
+ * 原图
+ *     p        q
+ *    /  \      / \
+ *   Lp   Rp   Lq  Rq
+ * 执行后
+ *     p         q
+ *    /  \      / \
+ *   Lq   Rp   Lq  Rq
+ *
+ * 场景4：p.left = q [把整个 q 节点，挂到 p 的左子节点位置； 原来的 p.left 子树直接断开丢失。]
+ * 原图
+ *     p        q
+ *    /  \      / \
+ *   Lp   Rp   Lq  Rq
+ * 执行后
+ *       p
+ *      /  \
+ *     q   Rp
+ *    / \
+ *   Lq  Rq
+ * (Lp 子树被丢弃)
+ *
+ * 场景5：q.left = null[切断 q 的左子树（断开引用）]
+ *
+ * 场景6：切换左右子树 TreeNode tmp = p.left; p.left = q; q.left = tmp;
+ *
+ * 场景7：遍历缓存原节点 TreeNode tmp = p; p = p.left;
+ */
 public class TreeNode {
     public int val;
     public TreeNode left;

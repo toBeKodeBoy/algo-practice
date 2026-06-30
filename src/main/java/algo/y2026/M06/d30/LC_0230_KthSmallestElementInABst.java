@@ -4,6 +4,7 @@ import algo.util.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Stack;
 
 // 题目 二叉搜索树中第 K 小的元素
 // 示例 root=[3,1,4,null,2], k=1 => 1
@@ -14,23 +15,39 @@ import java.util.Deque;
 // 标签 二叉树, BST, 中序遍历
 // 时段 早地铁
 // 类型 新题
+// 思考
+// 1、为什么使用stack存储，能否使用队列
+// 2、判断条件为什么这样编写
+// 3、是否是最优方案
+// 4、是否有其他方案
+
 
 public class LC_0230_KthSmallestElementInABst {
 
     public int kthSmallest(TreeNode root, int k) {
-        Deque<TreeNode> stack = new ArrayDeque<>();
+        // 记录 k=cnt 时候的节点
+        int cnt = 0;
+        // 定义stack 处理 先入栈的数值是大的，后入栈的小的，所以使用这种结构 需要按照序列从小到大
+        Stack<TreeNode> stack = new Stack<>();
         TreeNode curr = root;
+
+        // 开始处理
         while (curr != null || !stack.isEmpty()) {
+            // 一直往左走，BST最小节点在最左侧
+            // 左子树遍历
             while (curr != null) {
                 stack.push(curr);
                 curr = curr.left;
             }
             curr = stack.pop();
-            if (--k == 0) {
-                return curr.val;
-            }
+            cnt++;
+            // 找到k对应的元素
+            if (cnt == k) return curr.val;
+            // 遍历右子树
             curr = curr.right;
         }
+
+        // 没有
         return -1;
     }
 
