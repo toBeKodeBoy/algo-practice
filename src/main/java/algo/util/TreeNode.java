@@ -79,4 +79,35 @@ public class TreeNode {
         }
         return a.val == b.val && equals(a.left, b.left) && equals(a.right, b.right);
     }
+
+    // 后序遍历 双栈法实现
+    public static List<Integer> postOrderTraversal(TreeNode root){
+        List<Integer> result = new ArrayList<>();
+        if(root == null) return result;
+
+        Deque<TreeNode> stack1 = new ArrayDeque<>();
+        Deque<TreeNode> stack2 = new ArrayDeque<>();
+
+        stack1.push(root);
+        while (!stack1.isEmpty()){
+            TreeNode node = stack1.pop();
+            stack2.push(node);
+
+            // 先压左，后压右
+            if(node.left != null){
+                stack1.push(node.left);
+            }
+            if(node.right != null){
+                stack1.push(node.right);
+            }
+        }
+
+        // stack2 依次弹出
+        while (!stack2.isEmpty()){
+            result.add(stack2.poll().val);
+        }
+
+        return result;
+    }
+
 }
