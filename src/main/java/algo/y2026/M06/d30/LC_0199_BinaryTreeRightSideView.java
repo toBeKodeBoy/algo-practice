@@ -2,10 +2,10 @@ package algo.y2026.M06.d30;
 
 import algo.util.TreeNode;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.Deque;
 import java.util.List;
-import java.util.Queue;
 
 // 题目 二叉树的右视图 给定一棵二叉树，按照从顶部到底部，返回每一层最右侧节点的值，这就是二叉树右视图。
 // 示例 root=[1,2,3,null,5,null,4] => [1,3,4]
@@ -19,7 +19,7 @@ import java.util.Queue;
     //左、右子节点依次入队
 // 时间 O(n) 空间 O(n)
 // 难度 Medium
-// 标签 二叉树, BFS, DFS
+// 标签 二叉树, BFS
 // 时段 晚地铁
 // 类型 新题
 // 思考
@@ -36,7 +36,7 @@ public class LC_0199_BinaryTreeRightSideView {
             return res;
         }
 
-        Queue<TreeNode> q = new LinkedList<>();
+        Deque<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
         while (!q.isEmpty()) {
             int size = q.size();
